@@ -56,5 +56,20 @@ namespace HotelManager
             if (e.KeyChar == 13)
                 btnLogin_Click_1(sender, null);
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
