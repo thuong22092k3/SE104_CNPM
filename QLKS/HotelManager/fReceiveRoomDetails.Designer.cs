@@ -71,7 +71,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(9, 54);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(1008, 12);
             this.bunifuSeparator1.TabIndex = 32;
@@ -82,11 +82,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label2.ForeColor = System.Drawing.Color.SeaGreen;
             this.label2.Location = new System.Drawing.Point(11, 10);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(361, 46);
+            this.label2.Size = new System.Drawing.Size(353, 45);
             this.label2.TabIndex = 30;
             this.label2.Text = "Chi Tiết Nhận Phòng";
             // 
@@ -110,9 +110,9 @@
             this.groupBox6.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox6.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.groupBox6.Location = new System.Drawing.Point(9, 64);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(317, 314);
             this.groupBox6.TabIndex = 34;
             this.groupBox6.TabStop = false;
@@ -130,7 +130,7 @@
             this.txbRoomName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbRoomName.isPassword = false;
             this.txbRoomName.Location = new System.Drawing.Point(25, 128);
-            this.txbRoomName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbRoomName.Margin = new System.Windows.Forms.Padding(5);
             this.txbRoomName.Name = "txbRoomName";
             this.txbRoomName.Size = new System.Drawing.Size(271, 36);
             this.txbRoomName.TabIndex = 50;
@@ -160,7 +160,7 @@
             this.txbIDReceiveRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDReceiveRoom.isPassword = false;
             this.txbIDReceiveRoom.Location = new System.Drawing.Point(24, 60);
-            this.txbIDReceiveRoom.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbIDReceiveRoom.Margin = new System.Windows.Forms.Padding(5);
             this.txbIDReceiveRoom.Name = "txbIDReceiveRoom";
             this.txbIDReceiveRoom.Size = new System.Drawing.Size(271, 36);
             this.txbIDReceiveRoom.TabIndex = 49;
@@ -190,7 +190,7 @@
             this.txbDateCheckOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbDateCheckOut.isPassword = false;
             this.txbDateCheckOut.Location = new System.Drawing.Point(24, 261);
-            this.txbDateCheckOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbDateCheckOut.Margin = new System.Windows.Forms.Padding(5);
             this.txbDateCheckOut.Name = "txbDateCheckOut";
             this.txbDateCheckOut.Size = new System.Drawing.Size(271, 36);
             this.txbDateCheckOut.TabIndex = 40;
@@ -208,7 +208,7 @@
             this.txbDateCheckIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbDateCheckIn.isPassword = false;
             this.txbDateCheckIn.Location = new System.Drawing.Point(24, 194);
-            this.txbDateCheckIn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbDateCheckIn.Margin = new System.Windows.Forms.Padding(5);
             this.txbDateCheckIn.Name = "txbDateCheckIn";
             this.txbDateCheckIn.Size = new System.Drawing.Size(271, 36);
             this.txbDateCheckIn.TabIndex = 36;
@@ -245,9 +245,9 @@
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox5.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.groupBox5.Location = new System.Drawing.Point(9, 379);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(317, 170);
             this.groupBox5.TabIndex = 46;
             this.groupBox5.TabStop = false;
@@ -311,9 +311,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.groupBox1.Location = new System.Drawing.Point(335, 64);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(683, 485);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
@@ -328,7 +328,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(4, 31);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(675, 450);
             this.panel1.TabIndex = 39;
@@ -477,7 +477,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(1000, 4);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -500,7 +500,7 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fReceiveRoomDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fReceiveRoomDetails";

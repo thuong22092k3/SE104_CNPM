@@ -45,15 +45,15 @@ namespace HotelManager
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            //fAddCustomerInfo f = new fAddCustomerInfo();
-            //f.ShowDialog();
-            //Show();
-            //if(fAddCustomerInfo.ListIdCustomer.Count>0)
-            //    foreach (var item in fAddCustomerInfo.ListIdCustomer)
-            //    {
-            //        ReceiveRoomDetailsDAO.Instance.InsertReceiveRoomDetails(idReceiveRoom, item);
-            //    }
-            //ShowCustomers(idReceiveRoom);
+            fAddCustomerInfo f = new fAddCustomerInfo();
+            f.ShowDialog();
+            Show();
+            if (fAddCustomerInfo.ListIdCustomer.Count > 0)
+                foreach (var item in fAddCustomerInfo.ListIdCustomer)
+                {
+                    ReceiveRoomDetailsDAO.Instance.InsertReceiveRoomDetails(idReceiveRoom, item);
+                }
+            ShowCustomers(idReceiveRoom);
         }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)

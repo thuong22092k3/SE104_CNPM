@@ -242,7 +242,7 @@
             this.dataGridViewRoomType.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewRoomType.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewRoomType.GridColor = System.Drawing.Color.White;
-            this.dataGridViewRoomType.Location = new System.Drawing.Point(3, 55);
+            this.dataGridViewRoomType.Location = new System.Drawing.Point(3, 61);
             this.dataGridViewRoomType.Name = "dataGridViewRoomType";
             this.dataGridViewRoomType.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -261,7 +261,7 @@
             this.dataGridViewRoomType.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridViewRoomType.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewRoomType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewRoomType.Size = new System.Drawing.Size(539, 483);
+            this.dataGridViewRoomType.Size = new System.Drawing.Size(539, 477);
             this.dataGridViewRoomType.TabIndex = 28;
             this.dataGridViewRoomType.SelectionChanged += new System.EventHandler(this.DataGridViewRoomType_SelectionChanged);
             // 
@@ -339,14 +339,14 @@
             this.bindingCustomerType.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingCustomerType.Name = "bindingCustomerType";
             this.bindingCustomerType.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingCustomerType.Size = new System.Drawing.Size(539, 25);
+            this.bindingCustomerType.Size = new System.Drawing.Size(539, 31);
             this.bindingCustomerType.TabIndex = 29;
             this.bindingCustomerType.Text = "bindingNavigator1";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 28);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -373,7 +373,7 @@
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -388,7 +388,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -413,12 +413,12 @@
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(39, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(39, 28);
             this.toolStripLabel1.Text = "Xuất";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
@@ -638,7 +638,7 @@
             this.labelName.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.labelName.Location = new System.Drawing.Point(9, 6);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(339, 46);
+            this.labelName.Size = new System.Drawing.Size(334, 45);
             this.labelName.TabIndex = 49;
             this.labelName.Text = "Quản Lí Loại Phòng";
             this.labelName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

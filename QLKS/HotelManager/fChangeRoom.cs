@@ -70,7 +70,7 @@ namespace HotelManager
         private void btnAddCustomer_Click(object sender, EventArgs e)
         {
             //Phải cập nhật trạng thái của phòng cũ
-            RoomDAO.Instance.UpdateStatusRoom(idRoom);
+            RoomDAO.Instance.UpdateStatusRoom(idRoom, 4);
             ReceiveRoomDAO.Instance.UpdateReceiveRoom(idReceiveRoom, (cbRoom.SelectedItem as Room).Id);
             MessageBox.Show("Đổi phòng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

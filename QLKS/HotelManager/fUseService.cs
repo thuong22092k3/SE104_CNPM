@@ -39,7 +39,7 @@ namespace HotelManager
         public void LoadListRoomType()
         {
             List<RoomType> roomTypes = RoomTypeDAO.Instance.LoadListRoomType();
-            switch(roomTypes.Count)
+            switch (roomTypes.Count)
             {
                 case 0:
                     {
@@ -57,7 +57,7 @@ namespace HotelManager
                 case 2:
                     {
                         lblRoomType1.Text = roomTypes[0].Name;
-                        lblRoomType2.Text= roomTypes[1].Name;
+                        lblRoomType2.Text = roomTypes[1].Name;
                         color3.Visible = color4.Visible = color5.Visible = false;
                         lblRoomType3.Visible = lblRoomType4.Visible = lblRoomType5.Visible = false;
                         break;
@@ -148,17 +148,17 @@ namespace HotelManager
                 button.ForeColor = System.Drawing.Color.White;
                 button.Image = global::HotelManager.Properties.Resources.Room;
                 button.ImagePosition = 14;
-                button.ImageZoom =36;
+                button.ImageZoom = 36;
                 button.LabelPosition = 29;
-                button.Size = new System.Drawing.Size(110,95);
-                button.Margin= new System.Windows.Forms.Padding(1,1,1,1);
+                button.Size = new System.Drawing.Size(110, 95);
+                button.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
 
                 button.Tag = item;
-                button.LabelText =item.Name;
+                button.LabelText = item.Name;
                 button.Click += Button_Click;
 
                 DrawControl(item, button);
-                
+
                 flowLayoutRooms.Controls.Add(button);
 
                 //BillDAO.Instance.UpdateRoomPrice(item.Id);
@@ -189,7 +189,7 @@ namespace HotelManager
             BillDAO.Instance.UpdateRoomPrice(BillDAO.Instance.GetIdBillFromIdRoom(room.Id));
             ShowBillRoom(room.Id);
 
-            txbTotalPrice.Text = totalPrice.ToString("c0",new CultureInfo("vi-vn"));
+            txbTotalPrice.Text = totalPrice.ToString("c0", new CultureInfo("vi-vn"));
         }
 
         public bool IsExistsBill(int idRoom)
@@ -212,12 +212,12 @@ namespace HotelManager
         {
             return BillDetailsDAO.Instance.UpdateBillDetails(idBill, idService, _count);
         }
-        public void AddBill(int idRoom,int idService,int count)
+        public void AddBill(int idRoom, int idService, int count)
         {
-            if(IsExistsBill(idRoom))
+            if (IsExistsBill(idRoom))
             {
                 //Đã tồn tại Bill
-                if(!IsExistsBillDetails(idRoom,idService))
+                if (!IsExistsBillDetails(idRoom, idService))
                 {
                     //Chưa tồn tại BillDetails
                     if (count > 0)
@@ -288,8 +288,8 @@ namespace HotelManager
                 ListViewItem.ListViewSubItem subItem3 = new ListViewItem.ListViewSubItem(listViewItem, ((int)item["Số lượng"]).ToString());
                 ListViewItem.ListViewSubItem subItem4 = new ListViewItem.ListViewSubItem(listViewItem, ((int)item["Thành tiền"]).ToString("c0", cultureInfo));
 
-                
-                _totalPrice+= (int)item["Thành tiền"];
+
+                _totalPrice += (int)item["Thành tiền"];
 
                 listViewItem.SubItems.Add(subItem1);
                 listViewItem.SubItems.Add(subItem2);
@@ -386,16 +386,22 @@ namespace HotelManager
         private void btnAddCustomer_Click(object sender, EventArgs e)
         {
             Room room = flowLayoutRooms.Tag as Room;
-            if (MessageBox.Show("Bạn có chắc chắn thanh toán cho "  +room.Name+ " không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            if (MessageBox.Show("Bạn có chắc chắn thanh toán cho " + room.Name + " không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 int idBill = BillDAO.Instance.GetIdBillFromIdRoom(room.Id);
-                Pay(idBill,int.Parse(numericUpDown1.Value.ToString()));
+                Pay(idBill, int.Parse(numericUpDown1.Value.ToString()));
                 ReportDAO.Instance.InsertReport(idBill);
-                MessageBox.Show( "Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (!BillDAO.Instance.IsExistsBill(room.Id))
+                {
+                    int idReceiveRoom = ReceiveRoomDAO.Instance.GetIdReceiveRoomFromIdRoom(room.Id);
+                    InsertBill(idReceiveRoom, staffSetUp);
+                    RoomDAO.Instance.UpdateStatusRoom(room.Id, 4); // Update status to 'occupied'
+                }
                 this.Hide();
-                fPrintBill fPrintBill = new fPrintBill(room.Id,idBill);
+                fPrintBill fPrintBill = new fPrintBill(room.Id, idBill);
                 fPrintBill.ShowDialog();
-                this.Show();              
+                this.Show();
                 LoadListFullRoom();
                 listViewBillRoom.Items.Clear();
                 listViewUseService.Items.Clear();

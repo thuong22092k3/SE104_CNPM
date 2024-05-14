@@ -182,7 +182,7 @@ namespace HotelManager
         }
         private void ChangeText(DataGridViewRow row)
         {
-            if(row.IsNewRow)
+            if (row.IsNewRow)
             {
                 txbNameRoom.Text = string.Empty;
                 bindingNavigatorMoveFirstItem.Enabled = false;
@@ -193,12 +193,38 @@ namespace HotelManager
                 bindingNavigatorMoveFirstItem.Enabled = true;
                 bindingNavigatorMovePreviousItem.Enabled = true;
                 txbNameRoom.Text = row.Cells["colName"].Value.ToString();
-                comboBoxRoomType.SelectedIndex = (int)row.Cells["colIdRoomType"].Value - 1;
-                comboBoxStatusRoom.SelectedIndex = (int)row.Cells["colIdStatus"].Value - 1;
+
+                int roomTypeIndex = FindComboBoxIndex(comboBoxRoomType, row.Cells["colIdRoomType"].Value);
+                if (roomTypeIndex >= 0 && roomTypeIndex < comboBoxRoomType.Items.Count)
+                {
+                    comboBoxRoomType.SelectedIndex = roomTypeIndex;
+                }
+
+                int statusIndex = FindComboBoxIndex(comboBoxStatusRoom, row.Cells["colIdStatus"].Value);
+                if (statusIndex >= 0 && statusIndex < comboBoxStatusRoom.Items.Count)
+                {
+                    comboBoxStatusRoom.SelectedIndex = statusIndex;
+                }
+
                 Room room = new Room(((DataRowView)row.DataBoundItem).Row);
                 groupRoom.Tag = room;
             }
         }
+        private int FindComboBoxIndex(ComboBox comboBox, object value)
+        {
+            for (int i = 0; i < comboBox.Items.Count; i++)
+            {
+                DataRowView row = comboBox.Items[i] as DataRowView;
+                if (row != null && row["id"].Equals(value))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+
+
         private void Search()
         {
             LoadFullRoom(GetSearchRoom());

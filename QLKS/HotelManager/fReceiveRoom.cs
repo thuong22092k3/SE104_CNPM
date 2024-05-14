@@ -121,8 +121,8 @@ namespace HotelManager
         {
             if (txbRoomName.Text != string.Empty && txbRoomTypeName.Text != string.Empty && txbFullName.Text != string.Empty && txbIDCard.Text != string.Empty && txbDateCheckIn.Text != string.Empty && txbDateCheckOut.Text != string.Empty && txbAmountPeople.Text != string.Empty && txbPrice.Text != string.Empty)
             {
-                //fAddCustomerInfo fAddCustomerInfo = new fAddCustomerInfo();
-                //fAddCustomerInfo.ShowDialog();
+                fAddCustomerInfo fAddCustomerInfo = new fAddCustomerInfo();
+                fAddCustomerInfo.ShowDialog();
                 this.Show();
             }
             else
@@ -143,14 +143,15 @@ namespace HotelManager
                         int idRoom = (cbRoom.SelectedItem as Room).Id;
                         if (InsertReceiveRoom(idBookRoom, idRoom))
                         {
-                            //if (fAddCustomerInfo.ListIdCustomer != null)
-                            //{
-                            //    foreach (int item in fAddCustomerInfo.ListIdCustomer)
-                            //    {
-                            //        if (item != int.Parse(txbIDCard.Text))
-                            //            InsertReceiveRoomDetails(ReceiveRoomDAO.Instance.GetIDCurrent(), item);
-                            //    }
-                            //}
+                            if (fAddCustomerInfo.ListIdCustomer != null)
+                            {
+                                foreach (int item in fAddCustomerInfo.ListIdCustomer)
+                                {
+                                    if (item != int.Parse(txbIDCard.Text))
+                                        InsertReceiveRoomDetails(ReceiveRoomDAO.Instance.GetIDCurrent(), item);
+                                }
+                            }
+                            //RoomDAO.Instance.UpdateStatusRoom(idRoom, 1);
                             MessageBox.Show("Nhận phòng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             LoadEmptyRoom((cbRoomType.SelectedItem as RoomType).Id);
                         }

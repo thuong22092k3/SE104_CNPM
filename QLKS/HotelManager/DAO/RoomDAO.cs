@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace HotelManager.DAO
 {
@@ -40,7 +41,7 @@ namespace HotelManager.DAO
         {
             List<Room> rooms = new List<Room>();
             string query = "USP_LoadEmptyRoom @idRoomType";
-            DataTable data = DataProvider.Instance.ExecuteQuery(query,new object[] { idRoomType });
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { idRoomType });
             foreach (DataRow item in data.Rows)
             {
                 Room room = new Room(item);
@@ -52,7 +53,7 @@ namespace HotelManager.DAO
         {
             string query = "USP_LoadListFullRoom @getToday";
             List<Room> rooms = new List<Room>();
-            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] {DateTime.Now.Date });
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { DateTime.Now.Date });
             foreach (DataRow item in data.Rows)
             {
                 Room room = new Room(item);
@@ -63,22 +64,25 @@ namespace HotelManager.DAO
         public int GetPeoples(int idBill)
         {
             string query = "USP_GetPeoples @idBill";
-            return (int)DataProvider.Instance.ExecuteScalar(query, new object[] { idBill })+1;
+            return (int)DataProvider.Instance.ExecuteScalar(query, new object[] { idBill }) + 1;
         }
         public int GetIdRoomFromReceiveRoom(int idReceiveRoom)
         {
             string query = "USP_GetIDRoomFromReceiveRoom @idReceiveRoom";
             return (int)DataProvider.Instance.ExecuteScalar(query, new object[] { idReceiveRoom });
         }
-        public bool UpdateStatusRoom(int idRoom)
+        public bool UpdateStatusRoom(int idRoom, int status)
         {
-            string query = "USP_UpdateStatusRoom @idRoom";
-            return DataProvider.Instance.ExecuteNoneQuery(query, new object[] { idRoom }) > 0;
+            string query = "USP_UpdateStatusRoom @idRoom , @status";
+            return DataProvider.Instance.ExecuteNoneQuery(query, new object[] { idRoom, status }) > 0;
         }
         #endregion
 
-        public static RoomDAO Instance { get {if(instance==null) instance=new RoomDAO();return instance; }
-            private set => instance = value; }
+        public static RoomDAO Instance
+        {
+            get { if (instance == null) instance = new RoomDAO(); return instance; }
+            private set => instance = value;
+        }
         private RoomDAO() { }
     }
 }

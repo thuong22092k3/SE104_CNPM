@@ -94,7 +94,7 @@ namespace HotelManager
             }
             LoadFullStaffType();
         }
-       
+
         #endregion
 
         #region Get Data
@@ -122,7 +122,7 @@ namespace HotelManager
         #endregion
 
         #region Method
-        
+
         private void AccessInsert(int idJob, int idStaffType)
         {
             AccessDAO.Instance.Insert(idJob, idStaffType);
