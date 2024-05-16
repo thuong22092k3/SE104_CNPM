@@ -57,16 +57,15 @@
             this.bindingReport = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.dataGridReport = new System.Windows.Forms.DataGridView();
-            this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colRevenue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colRate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label6 = new System.Windows.Forms.Label();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
             this.saveReport = new System.Windows.Forms.SaveFileDialog();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colRevenue = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colRate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericYear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartReport)).BeginInit();
@@ -94,9 +93,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.groupBox3.Location = new System.Drawing.Point(7, 73);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(1120, 85);
             this.groupBox3.TabIndex = 74;
             this.groupBox3.TabStop = false;
@@ -146,7 +145,7 @@
             this.numericYear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.numericYear.Location = new System.Drawing.Point(475, 34);
-            this.numericYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericYear.Margin = new System.Windows.Forms.Padding(4);
             this.numericYear.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -187,7 +186,7 @@
             "11",
             "12"});
             this.comboBoxMonth.Location = new System.Drawing.Point(89, 32);
-            this.comboBoxMonth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxMonth.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxMonth.Name = "comboBoxMonth";
             this.comboBoxMonth.Size = new System.Drawing.Size(232, 30);
             this.comboBoxMonth.Style = MetroFramework.MetroColorStyle.Green;
@@ -253,7 +252,7 @@
             legend1.Name = "Legend1";
             this.chartReport.Legends.Add(legend1);
             this.chartReport.Location = new System.Drawing.Point(7, 165);
-            this.chartReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chartReport.Margin = new System.Windows.Forms.Padding(4);
             this.chartReport.Name = "chartReport";
             this.chartReport.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chartReport.PaletteCustomColors = new System.Drawing.Color[] {
@@ -369,7 +368,6 @@
             this.dataGridReport.ColumnHeadersHeight = 29;
             this.dataGridReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridReport.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colId,
             this.col,
             this.colRevenue,
             this.colRate});
@@ -384,7 +382,7 @@
             this.dataGridReport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridReport.GridColor = System.Drawing.Color.White;
             this.dataGridReport.Location = new System.Drawing.Point(4, 69);
-            this.dataGridReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridReport.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridReport.Name = "dataGridReport";
             this.dataGridReport.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -405,47 +403,6 @@
             this.dataGridReport.TabIndex = 28;
             this.dataGridReport.VirtualMode = true;
             // 
-            // colId
-            // 
-            this.colId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colId.DataPropertyName = "name";
-            this.colId.HeaderText = "Tên Loại Phòng";
-            this.colId.MinimumWidth = 6;
-            this.colId.Name = "colId";
-            this.colId.ReadOnly = true;
-            this.colId.Width = 156;
-            // 
-            // col
-            // 
-            this.col.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.col.DataPropertyName = "rate_new";
-            this.col.HeaderText = "Tỷ lệ";
-            this.col.MinimumWidth = 6;
-            this.col.Name = "col";
-            this.col.ReadOnly = true;
-            this.col.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.col.Width = 51;
-            // 
-            // colRevenue
-            // 
-            this.colRevenue.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colRevenue.DataPropertyName = "value";
-            this.colRevenue.HeaderText = "Doanh Thu";
-            this.colRevenue.MinimumWidth = 6;
-            this.colRevenue.Name = "colRevenue";
-            this.colRevenue.ReadOnly = true;
-            this.colRevenue.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colRate
-            // 
-            this.colRate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colRate.DataPropertyName = "rate";
-            this.colRate.HeaderText = "";
-            this.colRate.MinimumWidth = 6;
-            this.colRate.Name = "colRate";
-            this.colRate.ReadOnly = true;
-            this.colRate.Visible = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dataGridReport);
@@ -453,9 +410,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.groupBox1.Location = new System.Drawing.Point(529, 153);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(597, 402);
             this.groupBox1.TabIndex = 73;
             this.groupBox1.TabStop = false;
@@ -482,7 +439,7 @@
             this.label6.Location = new System.Drawing.Point(13, 11);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(346, 46);
+            this.label6.Size = new System.Drawing.Size(339, 45);
             this.label6.TabIndex = 71;
             this.label6.Text = "Báo Cáo Doanh Thu";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -494,7 +451,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(1105, 5);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -533,6 +490,37 @@
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
+            // col
+            // 
+            this.col.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.col.DataPropertyName = "rate_new";
+            this.col.HeaderText = "Tỷ lệ";
+            this.col.MinimumWidth = 6;
+            this.col.Name = "col";
+            this.col.ReadOnly = true;
+            this.col.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.col.Width = 51;
+            // 
+            // colRevenue
+            // 
+            this.colRevenue.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colRevenue.DataPropertyName = "value";
+            this.colRevenue.HeaderText = "Doanh Thu";
+            this.colRevenue.MinimumWidth = 6;
+            this.colRevenue.Name = "colRevenue";
+            this.colRevenue.ReadOnly = true;
+            this.colRevenue.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colRate
+            // 
+            this.colRate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colRate.DataPropertyName = "rate";
+            this.colRate.HeaderText = "";
+            this.colRate.MinimumWidth = 6;
+            this.colRate.Name = "colRate";
+            this.colRate.ReadOnly = true;
+            this.colRate.Visible = false;
+            // 
             // fReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -550,7 +538,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fReport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fReport";
@@ -598,10 +586,9 @@
         private System.Windows.Forms.Label label6;
         private Bunifu.Framework.UI.BunifuImageButton btnClose;
         private System.Windows.Forms.SaveFileDialog saveReport;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colId;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private System.Windows.Forms.DataGridViewTextBoxColumn col;
         private System.Windows.Forms.DataGridViewTextBoxColumn colRevenue;
         private System.Windows.Forms.DataGridViewTextBoxColumn colRate;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
     }
 }

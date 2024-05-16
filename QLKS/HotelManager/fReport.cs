@@ -23,14 +23,39 @@ namespace HotelManager
             this.month = month;
             this.year = year;
             DataTable table = GetFulReport(month, year);
+
+            // Đổi tên cột RoomType thành Tên loại phòng
+            table.Columns["RoomType"].ColumnName = "Tên loại phòng";
+
+            // Kiểm tra dữ liệu
+            foreach (DataRow row in table.Rows)
+            {
+                Console.WriteLine($"Tên loại phòng: {row["Tên loại phòng"]}, Value: {row["value"]}, Rate: {row["rate"]}");
+            }
+
+            ChangePrice(table);
+
+            // Đặt cột "Tên loại phòng" lên trước cột "tỉ lệ" (rate)
+            table.Columns["Tên loại phòng"].SetOrdinal(0);
+
             BindingSource source = new BindingSource();
-            //ChangePrice(table);
             source.DataSource = table;
             dataGridReport.DataSource = source;
             bindingReport.BindingSource = source;
+
+            foreach (var item in source)
+            {
+                DataRowView rowView = item as DataRowView;
+                if (rowView != null)
+                {
+                    Console.WriteLine($"Tên loại phòng: {rowView["Tên loại phòng"]}, Value: {rowView["value"]}, Rate: {rowView["rate_New"]}");
+                }
+            }
+
             DrawChart(source);
             GC.Collect();
         }
+
         #endregion
 
         #region Click
@@ -65,13 +90,13 @@ namespace HotelManager
                             break;
                     }
                     if (check)
-                        MessageBox.Show( "Xuất thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Xuất thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     else
-                        MessageBox.Show( "Lỗi xuất thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Lỗi xuất thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 catch
                 {
-                    MessageBox.Show( "Lỗi (Cần cài đặt Office)", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Lỗi (Cần cài đặt Office)", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -88,17 +113,50 @@ namespace HotelManager
 
         #region Chart
         private void DrawChart(BindingSource source)
-        {   
+        {
+            chartReport.Series.Clear();
+            Series series = new Series("Rate")
+            {
+                XValueMember = "Tên loại phòng",
+                YValueMembers = "rate_New",
+                ChartType = SeriesChartType.Pie
+            };
+            chartReport.Series.Add(series);
+
             chartReport.DataSource = source;
             chartReport.DataBind();
+
+            if (chartReport.ChartAreas.Count == 0)
+            {
+                chartReport.ChartAreas.Add(new ChartArea());
+            }
+
+            chartReport.ChartAreas[0].AxisX.Title = "Tên loại phòng";
+            chartReport.ChartAreas[0].AxisY.Title = "Tỉ lệ";
+
             foreach (DataPoint item in chartReport.Series[0].Points)
             {
-                if(item.YValues[0] == 0)
+                if (item.YValues[0] == 0)
                 {
                     item.Label = " ";
                 }
+                else
+                {
+                    // Sửa lỗi lấy dữ liệu cho Label
+                    DataRowView row = source[(int)item.XValue] as DataRowView;
+                    if (row != null)
+                    {
+                        string rateNew = row["rate_New"].ToString();
+                        item.Label = rateNew;
+                    }
+                    else
+                    {
+                        item.Label = item.YValues[0].ToString("#0.##%");
+                    }
+                }
             }
         }
+
         #endregion
 
         #region Change Price
@@ -109,14 +167,26 @@ namespace HotelManager
             int sum = 0;
             for (int i = 0; i < table.Rows.Count; i++)
             {
-                int node = ((int)table.Rows[i]["value"]);
+                object value = table.Rows[i]["value"];
+                int node = Convert.IsDBNull(value) ? 0 : Convert.ToInt32(value);
                 table.Rows[i]["value_New"] = node.ToString("C0", CultureInfo.CreateSpecificCulture("vi-VN"));
-                table.Rows[i]["rate_New"] = (((double)table.Rows[i]["rate"]) / 100).ToString("#0.##%");
+
+                object rateValue = table.Rows[i]["rate"];
+                double rate = 0.0;
+                if (rateValue != null && double.TryParse(rateValue.ToString(), out rate))
+                {
+                    table.Rows[i]["rate_New"] = (rate / 100).ToString("#0.##%");
+                }
+                else
+                {
+                    table.Rows[i]["rate_New"] = "N/A";
+                }
+
                 sum += node;
             }
             table.Columns.Remove("value");
             DataRow row = table.NewRow();
-            table.Columns["value_new"].ColumnName = "value";
+            table.Columns["value_New"].ColumnName = "value";
             row["value"] = sum.ToString("C0", CultureInfo.CreateSpecificCulture("vi-VN"));
             table.Rows.Add(row);
         }

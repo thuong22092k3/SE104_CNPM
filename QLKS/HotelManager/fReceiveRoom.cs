@@ -151,7 +151,6 @@ namespace HotelManager
                                         InsertReceiveRoomDetails(ReceiveRoomDAO.Instance.GetIDCurrent(), item);
                                 }
                             }
-                            //RoomDAO.Instance.UpdateStatusRoom(idRoom, 1);
                             MessageBox.Show("Nhận phòng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             LoadEmptyRoom((cbRoomType.SelectedItem as RoomType).Id);
                         }

@@ -20,6 +20,12 @@ namespace HotelManager
             cbbStaffType.DisplayMember = "Name";
             LoadFullStaffType();
         }
+        public fAccess(int idStaffType)
+        {
+            InitializeComponent();
+            this.idStaffType = idStaffType;
+            LoadAccess();
+        }
 
         #region Load
         private void LoadFullStaffType()
