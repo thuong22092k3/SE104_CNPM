@@ -238,5 +238,10 @@ namespace HotelManager
             login.Show();
 
         }
+
+        private void panelLeft_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

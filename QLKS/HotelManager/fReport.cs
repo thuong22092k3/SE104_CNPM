@@ -206,5 +206,10 @@ namespace HotelManager
         {
             Close();
         }
+
+        private void comboBoxMonth_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
