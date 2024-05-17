@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\QLKS",
+    "\\QLKS\\HotelManager",
+    "\\QLKS\\HotelManager\\DAO",
+    "\\QLKS\\HotelManager\\DTO",
+    "\\QLKS\\HotelManager\\Resources"
+  ],
+  "SelectedNode": "\\QLKS\\HotelManager\\fService.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -219,5 +219,15 @@ namespace HotelManager
         }
 
         #endregion
+
+        private void dataGridViewServiceType_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void comboboxID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
