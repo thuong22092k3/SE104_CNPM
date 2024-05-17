@@ -32,36 +32,36 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fManagement));
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panelRight = new System.Windows.Forms.Panel();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.metroTile8 = new MetroFramework.Controls.MetroTile();
             this.metroTile17 = new MetroFramework.Controls.MetroTile();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.titlePay = new MetroFramework.Controls.MetroTile();
             this.metroTile16 = new MetroFramework.Controls.MetroTile();
+            this.metroTile2 = new MetroFramework.Controls.MetroTile();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.metroTile13 = new MetroFramework.Controls.MetroTile();
             this.title = new MetroFramework.Controls.MetroTile();
-            this.titleManageRoom = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
-            this.metroTile8 = new MetroFramework.Controls.MetroTile();
-            this.titlePay = new MetroFramework.Controls.MetroTile();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.titleBookRoom = new MetroFramework.Controls.MetroTile();
             this.titleRecieveRoom = new MetroFramework.Controls.MetroTile();
+            this.titleManageRoom = new MetroFramework.Controls.MetroTile();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label2 = new System.Windows.Forms.Label();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
-            this.titleBookRoom = new MetroFramework.Controls.MetroTile();
             this.panelLeft = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.btnLogOut = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnNavigationPanel = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAccountProfile = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnIntroduce = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panelRight.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.panelLeft.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuDragControl1
@@ -89,18 +89,42 @@
             this.panelRight.TabIndex = 1;
             this.panelRight.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRight_Paint);
             // 
-            // bunifuSeparator1
+            // groupBox4
             // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(44, 65);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(1318, 15);
-            this.bunifuSeparator1.TabIndex = 54;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
+            this.groupBox4.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.groupBox4.Controls.Add(this.metroTile8);
+            this.groupBox4.Controls.Add(this.metroTile17);
+            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.ForeColor = System.Drawing.Color.MintCream;
+            this.groupBox4.Location = new System.Drawing.Point(834, 521);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(370, 353);
+            this.groupBox4.TabIndex = 58;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Nhân sự";
+            // 
+            // metroTile8
+            // 
+            this.metroTile8.ActiveControl = null;
+            this.metroTile8.BackColor = System.Drawing.Color.MintCream;
+            this.metroTile8.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.metroTile8.Location = new System.Drawing.Point(65, 46);
+            this.metroTile8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.metroTile8.Name = "metroTile8";
+            this.metroTile8.Size = new System.Drawing.Size(243, 133);
+            this.metroTile8.TabIndex = 29;
+            this.metroTile8.Text = "Quản Lí Nhân Viên";
+            this.metroTile8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.metroTile8.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile8.TileImage")));
+            this.metroTile8.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTile8.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.metroTile8.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.metroTile8.UseCustomBackColor = true;
+            this.metroTile8.UseCustomForeColor = true;
+            this.metroTile8.UseSelectable = true;
+            this.metroTile8.UseStyleColors = true;
+            this.metroTile8.UseTileImage = true;
+            this.metroTile8.Click += new System.EventHandler(this.metroTile8_Click);
             // 
             // metroTile17
             // 
@@ -125,6 +149,44 @@
             this.metroTile17.UseTileImage = true;
             this.metroTile17.Click += new System.EventHandler(this.metroTile17_Click);
             // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.groupBox3.Controls.Add(this.titlePay);
+            this.groupBox3.Controls.Add(this.metroTile16);
+            this.groupBox3.Controls.Add(this.metroTile2);
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.Color.MintCream;
+            this.groupBox3.Location = new System.Drawing.Point(176, 521);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(505, 353);
+            this.groupBox3.TabIndex = 57;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Dịch vụ";
+            // 
+            // titlePay
+            // 
+            this.titlePay.ActiveControl = null;
+            this.titlePay.BackColor = System.Drawing.Color.MintCream;
+            this.titlePay.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.titlePay.Location = new System.Drawing.Point(33, 192);
+            this.titlePay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.titlePay.Name = "titlePay";
+            this.titlePay.Size = new System.Drawing.Size(439, 136);
+            this.titlePay.TabIndex = 27;
+            this.titlePay.Text = "Sử Dụng Dịch Vụ VàThanh Toán";
+            this.titlePay.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.titlePay.TileImage = ((System.Drawing.Image)(resources.GetObject("titlePay.TileImage")));
+            this.titlePay.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.titlePay.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.titlePay.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.titlePay.UseCustomBackColor = true;
+            this.titlePay.UseCustomForeColor = true;
+            this.titlePay.UseSelectable = true;
+            this.titlePay.UseStyleColors = true;
+            this.titlePay.UseTileImage = true;
+            this.titlePay.Click += new System.EventHandler(this.titlePay_Click);
+            // 
             // metroTile16
             // 
             this.metroTile16.ActiveControl = null;
@@ -147,6 +209,43 @@
             this.metroTile16.UseStyleColors = true;
             this.metroTile16.UseTileImage = true;
             this.metroTile16.Click += new System.EventHandler(this.metroTile16_Click);
+            // 
+            // metroTile2
+            // 
+            this.metroTile2.ActiveControl = null;
+            this.metroTile2.BackColor = System.Drawing.Color.MintCream;
+            this.metroTile2.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.metroTile2.Location = new System.Drawing.Point(33, 46);
+            this.metroTile2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.metroTile2.Name = "metroTile2";
+            this.metroTile2.Size = new System.Drawing.Size(208, 136);
+            this.metroTile2.TabIndex = 32;
+            this.metroTile2.Text = "Quản Lí Dịch Vụ";
+            this.metroTile2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.metroTile2.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile2.TileImage")));
+            this.metroTile2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTile2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.metroTile2.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.metroTile2.UseCustomBackColor = true;
+            this.metroTile2.UseCustomForeColor = true;
+            this.metroTile2.UseSelectable = true;
+            this.metroTile2.UseStyleColors = true;
+            this.metroTile2.UseTileImage = true;
+            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.groupBox2.Controls.Add(this.metroTile13);
+            this.groupBox2.Controls.Add(this.title);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.MintCream;
+            this.groupBox2.Location = new System.Drawing.Point(834, 102);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(370, 368);
+            this.groupBox2.TabIndex = 56;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Thống kê và quy định";
             // 
             // metroTile13
             // 
@@ -194,97 +293,43 @@
             this.title.UseTileImage = true;
             this.title.Click += new System.EventHandler(this.title_Click);
             // 
-            // titleManageRoom
+            // groupBox1
             // 
-            this.titleManageRoom.ActiveControl = null;
-            this.titleManageRoom.BackColor = System.Drawing.Color.MintCream;
-            this.titleManageRoom.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.titleManageRoom.Location = new System.Drawing.Point(33, 210);
-            this.titleManageRoom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.titleManageRoom.Name = "titleManageRoom";
-            this.titleManageRoom.Size = new System.Drawing.Size(439, 136);
-            this.titleManageRoom.TabIndex = 34;
-            this.titleManageRoom.Text = "Quản Lí Phòng";
-            this.titleManageRoom.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.titleManageRoom.TileImage = ((System.Drawing.Image)(resources.GetObject("titleManageRoom.TileImage")));
-            this.titleManageRoom.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.titleManageRoom.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.titleManageRoom.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.titleManageRoom.UseCustomBackColor = true;
-            this.titleManageRoom.UseCustomForeColor = true;
-            this.titleManageRoom.UseSelectable = true;
-            this.titleManageRoom.UseStyleColors = true;
-            this.titleManageRoom.UseTileImage = true;
-            this.titleManageRoom.Click += new System.EventHandler(this.titleManageRoom_Click);
+            this.groupBox1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.groupBox1.Controls.Add(this.titleBookRoom);
+            this.groupBox1.Controls.Add(this.titleRecieveRoom);
+            this.groupBox1.Controls.Add(this.titleManageRoom);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.MintCream;
+            this.groupBox1.Location = new System.Drawing.Point(176, 102);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(505, 368);
+            this.groupBox1.TabIndex = 55;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Phòng";
             // 
-            // metroTile2
+            // titleBookRoom
             // 
-            this.metroTile2.ActiveControl = null;
-            this.metroTile2.BackColor = System.Drawing.Color.MintCream;
-            this.metroTile2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.metroTile2.Location = new System.Drawing.Point(33, 46);
-            this.metroTile2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.Size = new System.Drawing.Size(208, 136);
-            this.metroTile2.TabIndex = 32;
-            this.metroTile2.Text = "Quản Lí Dịch Vụ";
-            this.metroTile2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.metroTile2.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile2.TileImage")));
-            this.metroTile2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.metroTile2.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.metroTile2.UseCustomBackColor = true;
-            this.metroTile2.UseCustomForeColor = true;
-            this.metroTile2.UseSelectable = true;
-            this.metroTile2.UseStyleColors = true;
-            this.metroTile2.UseTileImage = true;
-            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
-            // 
-            // metroTile8
-            // 
-            this.metroTile8.ActiveControl = null;
-            this.metroTile8.BackColor = System.Drawing.Color.MintCream;
-            this.metroTile8.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.metroTile8.Location = new System.Drawing.Point(65, 46);
-            this.metroTile8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.metroTile8.Name = "metroTile8";
-            this.metroTile8.Size = new System.Drawing.Size(243, 133);
-            this.metroTile8.TabIndex = 29;
-            this.metroTile8.Text = "Quản Lí Nhân Viên";
-            this.metroTile8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.metroTile8.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile8.TileImage")));
-            this.metroTile8.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile8.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.metroTile8.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.metroTile8.UseCustomBackColor = true;
-            this.metroTile8.UseCustomForeColor = true;
-            this.metroTile8.UseSelectable = true;
-            this.metroTile8.UseStyleColors = true;
-            this.metroTile8.UseTileImage = true;
-            this.metroTile8.Click += new System.EventHandler(this.metroTile8_Click);
-            // 
-            // titlePay
-            // 
-            this.titlePay.ActiveControl = null;
-            this.titlePay.BackColor = System.Drawing.Color.MintCream;
-            this.titlePay.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.titlePay.Location = new System.Drawing.Point(33, 192);
-            this.titlePay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.titlePay.Name = "titlePay";
-            this.titlePay.Size = new System.Drawing.Size(439, 136);
-            this.titlePay.TabIndex = 27;
-            this.titlePay.Text = "Sử Dụng Dịch Vụ VàThanh Toán";
-            this.titlePay.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.titlePay.TileImage = ((System.Drawing.Image)(resources.GetObject("titlePay.TileImage")));
-            this.titlePay.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.titlePay.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.titlePay.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.titlePay.UseCustomBackColor = true;
-            this.titlePay.UseCustomForeColor = true;
-            this.titlePay.UseSelectable = true;
-            this.titlePay.UseStyleColors = true;
-            this.titlePay.UseTileImage = true;
-            this.titlePay.Click += new System.EventHandler(this.titlePay_Click);
+            this.titleBookRoom.ActiveControl = null;
+            this.titleBookRoom.BackColor = System.Drawing.Color.MintCream;
+            this.titleBookRoom.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.titleBookRoom.Location = new System.Drawing.Point(33, 64);
+            this.titleBookRoom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.titleBookRoom.Name = "titleBookRoom";
+            this.titleBookRoom.Size = new System.Drawing.Size(208, 136);
+            this.titleBookRoom.TabIndex = 17;
+            this.titleBookRoom.Text = "Đặt Phòng";
+            this.titleBookRoom.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.titleBookRoom.TileImage = ((System.Drawing.Image)(resources.GetObject("titleBookRoom.TileImage")));
+            this.titleBookRoom.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.titleBookRoom.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.titleBookRoom.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.titleBookRoom.UseCustomBackColor = true;
+            this.titleBookRoom.UseCustomForeColor = true;
+            this.titleBookRoom.UseSelectable = true;
+            this.titleBookRoom.UseStyleColors = true;
+            this.titleBookRoom.UseTileImage = true;
+            this.titleBookRoom.Click += new System.EventHandler(this.titleSignUpRoom_Click);
             // 
             // titleRecieveRoom
             // 
@@ -308,6 +353,42 @@
             this.titleRecieveRoom.UseStyleColors = true;
             this.titleRecieveRoom.UseTileImage = true;
             this.titleRecieveRoom.Click += new System.EventHandler(this.titleRecieveRoom_Click);
+            // 
+            // titleManageRoom
+            // 
+            this.titleManageRoom.ActiveControl = null;
+            this.titleManageRoom.BackColor = System.Drawing.Color.MintCream;
+            this.titleManageRoom.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.titleManageRoom.Location = new System.Drawing.Point(33, 210);
+            this.titleManageRoom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.titleManageRoom.Name = "titleManageRoom";
+            this.titleManageRoom.Size = new System.Drawing.Size(439, 136);
+            this.titleManageRoom.TabIndex = 34;
+            this.titleManageRoom.Text = "Quản Lí Phòng";
+            this.titleManageRoom.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.titleManageRoom.TileImage = ((System.Drawing.Image)(resources.GetObject("titleManageRoom.TileImage")));
+            this.titleManageRoom.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.titleManageRoom.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.titleManageRoom.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.titleManageRoom.UseCustomBackColor = true;
+            this.titleManageRoom.UseCustomForeColor = true;
+            this.titleManageRoom.UseSelectable = true;
+            this.titleManageRoom.UseStyleColors = true;
+            this.titleManageRoom.UseTileImage = true;
+            this.titleManageRoom.Click += new System.EventHandler(this.titleManageRoom_Click);
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuSeparator1.LineThickness = 1;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(44, 65);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(1318, 15);
+            this.bunifuSeparator1.TabIndex = 54;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
             // 
             // label2
             // 
@@ -337,40 +418,18 @@
             this.btnClose.Zoom = 10;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click_1);
             // 
-            // titleBookRoom
-            // 
-            this.titleBookRoom.ActiveControl = null;
-            this.titleBookRoom.BackColor = System.Drawing.Color.MintCream;
-            this.titleBookRoom.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.titleBookRoom.Location = new System.Drawing.Point(33, 64);
-            this.titleBookRoom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.titleBookRoom.Name = "titleBookRoom";
-            this.titleBookRoom.Size = new System.Drawing.Size(208, 136);
-            this.titleBookRoom.TabIndex = 17;
-            this.titleBookRoom.Text = "Đặt Phòng";
-            this.titleBookRoom.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.titleBookRoom.TileImage = ((System.Drawing.Image)(resources.GetObject("titleBookRoom.TileImage")));
-            this.titleBookRoom.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.titleBookRoom.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.titleBookRoom.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.titleBookRoom.UseCustomBackColor = true;
-            this.titleBookRoom.UseCustomForeColor = true;
-            this.titleBookRoom.UseSelectable = true;
-            this.titleBookRoom.UseStyleColors = true;
-            this.titleBookRoom.UseTileImage = true;
-            this.titleBookRoom.Click += new System.EventHandler(this.titleSignUpRoom_Click);
-            // 
             // panelLeft
             // 
             this.panelLeft.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.panelLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
+            this.panelLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelLeft.Controls.Add(this.btnLogOut);
             this.panelLeft.Controls.Add(this.btnNavigationPanel);
             this.panelLeft.Controls.Add(this.btnAccountProfile);
             this.panelLeft.Controls.Add(this.btnIntroduce);
             this.panelLeft.Controls.Add(this.bunifuFlatButton1);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.panelLeft.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.panelLeft.GradientBottomLeft = System.Drawing.Color.DeepSkyBlue;
             this.panelLeft.GradientBottomRight = System.Drawing.Color.DeepSkyBlue;
             this.panelLeft.GradientTopLeft = System.Drawing.Color.DeepSkyBlue;
@@ -407,7 +466,7 @@
             this.btnLogOut.IconZoom = 50D;
             this.btnLogOut.IsTab = false;
             this.btnLogOut.Location = new System.Drawing.Point(0, 765);
-            this.btnLogOut.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnLogOut.Margin = new System.Windows.Forms.Padding(6);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Normalcolor = System.Drawing.Color.DeepSkyBlue;
             this.btnLogOut.OnHovercolor = System.Drawing.Color.LightBlue;
@@ -443,7 +502,7 @@
             this.btnNavigationPanel.IconZoom = 50D;
             this.btnNavigationPanel.IsTab = false;
             this.btnNavigationPanel.Location = new System.Drawing.Point(0, 0);
-            this.btnNavigationPanel.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnNavigationPanel.Margin = new System.Windows.Forms.Padding(6);
             this.btnNavigationPanel.Name = "btnNavigationPanel";
             this.btnNavigationPanel.Normalcolor = System.Drawing.Color.DeepSkyBlue;
             this.btnNavigationPanel.OnHovercolor = System.Drawing.Color.LightBlue;
@@ -480,7 +539,7 @@
             this.btnAccountProfile.IconZoom = 50D;
             this.btnAccountProfile.IsTab = false;
             this.btnAccountProfile.Location = new System.Drawing.Point(0, 691);
-            this.btnAccountProfile.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAccountProfile.Margin = new System.Windows.Forms.Padding(6);
             this.btnAccountProfile.Name = "btnAccountProfile";
             this.btnAccountProfile.Normalcolor = System.Drawing.Color.LightSeaGreen;
             this.btnAccountProfile.OnHovercolor = System.Drawing.Color.Turquoise;
@@ -518,7 +577,7 @@
             this.btnIntroduce.IconZoom = 50D;
             this.btnIntroduce.IsTab = false;
             this.btnIntroduce.Location = new System.Drawing.Point(0, 835);
-            this.btnIntroduce.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnIntroduce.Margin = new System.Windows.Forms.Padding(6);
             this.btnIntroduce.Name = "btnIntroduce";
             this.btnIntroduce.Normalcolor = System.Drawing.Color.DeepSkyBlue;
             this.btnIntroduce.OnHovercolor = System.Drawing.Color.LightBlue;
@@ -554,7 +613,7 @@
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 1031);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -566,64 +625,6 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox1.Controls.Add(this.titleBookRoom);
-            this.groupBox1.Controls.Add(this.titleRecieveRoom);
-            this.groupBox1.Controls.Add(this.titleManageRoom);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.MintCream;
-            this.groupBox1.Location = new System.Drawing.Point(176, 102);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(505, 368);
-            this.groupBox1.TabIndex = 55;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Phòng";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox2.Controls.Add(this.metroTile13);
-            this.groupBox2.Controls.Add(this.title);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.MintCream;
-            this.groupBox2.Location = new System.Drawing.Point(834, 102);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(370, 368);
-            this.groupBox2.TabIndex = 56;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Thống kê và quy định";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox3.Controls.Add(this.titlePay);
-            this.groupBox3.Controls.Add(this.metroTile16);
-            this.groupBox3.Controls.Add(this.metroTile2);
-            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.ForeColor = System.Drawing.Color.MintCream;
-            this.groupBox3.Location = new System.Drawing.Point(176, 521);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(505, 353);
-            this.groupBox3.TabIndex = 57;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Dịch vụ";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox4.Controls.Add(this.metroTile8);
-            this.groupBox4.Controls.Add(this.metroTile17);
-            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.ForeColor = System.Drawing.Color.MintCream;
-            this.groupBox4.Location = new System.Drawing.Point(834, 521);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(370, 353);
-            this.groupBox4.TabIndex = 58;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Nhân sự";
             // 
             // fManagement
             // 
@@ -642,12 +643,12 @@
             this.Text = "Quản lí khách sạn";
             this.panelRight.ResumeLayout(false);
             this.panelRight.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             this.panelLeft.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
