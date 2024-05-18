@@ -79,9 +79,9 @@
             this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
             this.bunifuThinButton25.ButtonText = "Đóng";
             this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.bunifuThinButton25.ForeColor = System.Drawing.Color.Crimson;
-            this.bunifuThinButton25.IdleBorderThickness = 1;
+            this.bunifuThinButton25.IdleBorderThickness = 2;
             this.bunifuThinButton25.IdleCornerRadius = 20;
             this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.Crimson;
@@ -106,9 +106,9 @@
             this.btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn.BackgroundImage")));
             this.btn.ButtonText = "Cập Nhật";
             this.btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btn.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.btn.IdleBorderThickness = 1;
+            this.btn.IdleBorderThickness = 2;
             this.btn.IdleCornerRadius = 20;
             this.btn.IdleFillColor = System.Drawing.Color.White;
             this.btn.IdleForecolor = System.Drawing.Color.LightSeaGreen;

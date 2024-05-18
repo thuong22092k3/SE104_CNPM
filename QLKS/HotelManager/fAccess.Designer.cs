@@ -306,9 +306,9 @@
             this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
             this.bunifuThinButton25.ButtonText = "Đóng";
             this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.bunifuThinButton25.ForeColor = System.Drawing.Color.Crimson;
-            this.bunifuThinButton25.IdleBorderThickness = 1;
+            this.bunifuThinButton25.IdleBorderThickness = 2;
             this.bunifuThinButton25.IdleCornerRadius = 20;
             this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.Crimson;
@@ -332,9 +332,9 @@
             this.btnInsertStaffType.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertStaffType.BackgroundImage")));
             this.btnInsertStaffType.ButtonText = "Thêm mới";
             this.btnInsertStaffType.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertStaffType.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertStaffType.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnInsertStaffType.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.btnInsertStaffType.IdleBorderThickness = 1;
+            this.btnInsertStaffType.IdleBorderThickness = 2;
             this.btnInsertStaffType.IdleCornerRadius = 20;
             this.btnInsertStaffType.IdleFillColor = System.Drawing.Color.White;
             this.btnInsertStaffType.IdleForecolor = System.Drawing.Color.LightSeaGreen;
@@ -357,9 +357,9 @@
             this.btnUpdate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpdate.BackgroundImage")));
             this.btnUpdate.ButtonText = "Sửa tên";
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.btnUpdate.IdleBorderThickness = 1;
+            this.btnUpdate.IdleBorderThickness = 2;
             this.btnUpdate.IdleCornerRadius = 20;
             this.btnUpdate.IdleFillColor = System.Drawing.Color.White;
             this.btnUpdate.IdleForecolor = System.Drawing.Color.LightSeaGreen;
@@ -412,9 +412,9 @@
             this.btnDelete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDelete.BackgroundImage")));
             this.btnDelete.ButtonText = "Xoá";
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.Crimson;
-            this.btnDelete.IdleBorderThickness = 1;
+            this.btnDelete.IdleBorderThickness = 2;
             this.btnDelete.IdleCornerRadius = 20;
             this.btnDelete.IdleFillColor = System.Drawing.Color.White;
             this.btnDelete.IdleForecolor = System.Drawing.Color.Crimson;
