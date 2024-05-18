@@ -113,10 +113,10 @@
             // comboboxID
             // 
             this.comboboxID.FormattingEnabled = true;
-            this.comboboxID.ItemHeight = 23;
+            this.comboboxID.ItemHeight = 24;
             this.comboboxID.Location = new System.Drawing.Point(6, 90);
             this.comboboxID.Name = "comboboxID";
-            this.comboboxID.Size = new System.Drawing.Size(175, 29);
+            this.comboboxID.Size = new System.Drawing.Size(175, 30);
             this.comboboxID.Style = MetroFramework.MetroColorStyle.Green;
             this.comboboxID.TabIndex = 60;
             this.comboboxID.UseSelectable = true;
@@ -127,10 +127,10 @@
             this.comboBoxServiceType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBoxServiceType.ForeColor = System.Drawing.Color.SeaGreen;
             this.comboBoxServiceType.FormattingEnabled = true;
-            this.comboBoxServiceType.ItemHeight = 23;
+            this.comboBoxServiceType.ItemHeight = 24;
             this.comboBoxServiceType.Location = new System.Drawing.Point(524, 90);
             this.comboBoxServiceType.Name = "comboBoxServiceType";
-            this.comboBoxServiceType.Size = new System.Drawing.Size(175, 29);
+            this.comboBoxServiceType.Size = new System.Drawing.Size(175, 30);
             this.comboBoxServiceType.Style = MetroFramework.MetroColorStyle.Green;
             this.comboBoxServiceType.TabIndex = 56;
             this.comboBoxServiceType.UseCustomBackColor = true;
@@ -184,7 +184,7 @@
             this.label16.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label16.Location = new System.Drawing.Point(8, 56);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(132, 31);
+            this.label16.Size = new System.Drawing.Size(109, 25);
             this.label16.TabIndex = 22;
             this.label16.Text = "Mã dịch vụ:";
             // 
@@ -195,7 +195,7 @@
             this.label15.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label15.Location = new System.Drawing.Point(245, 56);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(134, 31);
+            this.label15.Size = new System.Drawing.Size(111, 25);
             this.label15.TabIndex = 24;
             this.label15.Text = "Tên dịch vụ:";
             // 
@@ -206,7 +206,7 @@
             this.label13.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label13.Location = new System.Drawing.Point(765, 56);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(53, 31);
+            this.label13.Size = new System.Drawing.Size(44, 25);
             this.label13.TabIndex = 57;
             this.label13.Text = "Giá:";
             // 
@@ -217,7 +217,7 @@
             this.label20.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label20.Location = new System.Drawing.Point(518, 56);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(141, 31);
+            this.label20.Size = new System.Drawing.Size(117, 25);
             this.label20.TabIndex = 58;
             this.label20.Text = "Loại dịch vụ:";
             // 
@@ -299,7 +299,7 @@
             this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label5.Location = new System.Drawing.Point(76, 91);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(176, 31);
+            this.label5.Size = new System.Drawing.Size(145, 25);
             this.label5.TabIndex = 28;
             this.label5.Text = "Mã/Tên dịch vụ:";
             // 
@@ -402,7 +402,7 @@
             this.dataGridViewService.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewService.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewService.GridColor = System.Drawing.Color.White;
-            this.dataGridViewService.Location = new System.Drawing.Point(3, 78);
+            this.dataGridViewService.Location = new System.Drawing.Point(3, 73);
             this.dataGridViewService.Name = "dataGridViewService";
             this.dataGridViewService.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -419,7 +419,7 @@
             this.dataGridViewService.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.dataGridViewService.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewService.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewService.Size = new System.Drawing.Size(960, 266);
+            this.dataGridViewService.Size = new System.Drawing.Size(960, 271);
             this.dataGridViewService.TabIndex = 28;
             this.dataGridViewService.SelectionChanged += new System.EventHandler(this.DataGridViewService_SelectionChanged);
             // 
@@ -432,7 +432,7 @@
             this.colID.MinimumWidth = 6;
             this.colID.Name = "colID";
             this.colID.ReadOnly = true;
-            this.colID.Width = 86;
+            this.colID.Width = 71;
             // 
             // colName
             // 
@@ -453,7 +453,7 @@
             this.colPrice.MinimumWidth = 6;
             this.colPrice.Name = "colPrice";
             this.colPrice.ReadOnly = true;
-            this.colPrice.Width = 87;
+            this.colPrice.Width = 72;
             // 
             // col
             // 
@@ -508,7 +508,7 @@
             this.bindingNavigatorMoveNextItem,
             this.bindingNavigatorMoveLastItem,
             this.toolStripLabel1});
-            this.bindingService.Location = new System.Drawing.Point(3, 35);
+            this.bindingService.Location = new System.Drawing.Point(3, 30);
             this.bindingService.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.bindingService.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.bindingService.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -522,7 +522,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(70, 38);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(61, 40);
             this.bindingNavigatorCountItem.Text = "của {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -589,7 +589,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(52, 38);
+            this.toolStripLabel1.Size = new System.Drawing.Size(45, 40);
             this.toolStripLabel1.Text = "Xuất";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
@@ -686,7 +686,7 @@
             this.label6.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label6.Location = new System.Drawing.Point(9, 6);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(333, 54);
+            this.label6.Size = new System.Drawing.Size(276, 45);
             this.label6.TabIndex = 45;
             this.label6.Text = "Quản Lí Dịch Vụ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -697,7 +697,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(5, 43);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(965, 12);
             this.bunifuSeparator1.TabIndex = 55;
@@ -711,7 +711,7 @@
             // 
             // fService
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
