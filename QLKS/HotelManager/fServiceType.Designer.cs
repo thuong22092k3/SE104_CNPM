@@ -316,7 +316,7 @@
             this.dataGridViewServiceType.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewServiceType.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewServiceType.GridColor = System.Drawing.Color.White;
-            this.dataGridViewServiceType.Location = new System.Drawing.Point(3, 65);
+            this.dataGridViewServiceType.Location = new System.Drawing.Point(3, 73);
             this.dataGridViewServiceType.Name = "dataGridViewServiceType";
             this.dataGridViewServiceType.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -333,7 +333,7 @@
             this.dataGridViewServiceType.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewServiceType.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewServiceType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewServiceType.Size = new System.Drawing.Size(884, 269);
+            this.dataGridViewServiceType.Size = new System.Drawing.Size(884, 261);
             this.dataGridViewServiceType.TabIndex = 28;
             this.dataGridViewServiceType.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewServiceType_CellContentClick);
             this.dataGridViewServiceType.SelectionChanged += new System.EventHandler(this.DataGridViewServiceType_SelectionChanged);
@@ -382,14 +382,14 @@
             this.bindingServiceType.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingServiceType.Name = "bindingServiceType";
             this.bindingServiceType.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingServiceType.Size = new System.Drawing.Size(884, 30);
+            this.bindingServiceType.Size = new System.Drawing.Size(884, 38);
             this.bindingServiceType.TabIndex = 29;
             this.bindingServiceType.Text = "bindingNavigator1";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(54, 25);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(54, 33);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -416,7 +416,7 @@
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 30);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 38);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -431,7 +431,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 30);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 38);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -456,12 +456,12 @@
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 30);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 38);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(48, 25);
+            this.toolStripLabel1.Size = new System.Drawing.Size(48, 33);
             this.toolStripLabel1.Text = "Xuất";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 

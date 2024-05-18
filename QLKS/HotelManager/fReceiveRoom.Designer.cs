@@ -100,7 +100,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(10, 68);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(1455, 15);
             this.bunifuSeparator1.TabIndex = 29;
@@ -123,7 +123,7 @@
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox4.Size = new System.Drawing.Size(1380, 292);
+            this.groupBox4.Size = new System.Drawing.Size(1333, 292);
             this.groupBox4.TabIndex = 31;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh sách nhận phòng trong ngày";
@@ -136,7 +136,7 @@
             this.panel2.Location = new System.Drawing.Point(4, 37);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1372, 250);
+            this.panel2.Size = new System.Drawing.Size(1325, 250);
             this.panel2.TabIndex = 39;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -158,7 +158,7 @@
             this.btnDetails.IdleFillColor = System.Drawing.Color.White;
             this.btnDetails.IdleForecolor = System.Drawing.Color.LightSeaGreen;
             this.btnDetails.IdleLineColor = System.Drawing.Color.Gray;
-            this.btnDetails.Location = new System.Drawing.Point(1061, 181);
+            this.btnDetails.Location = new System.Drawing.Point(1014, 181);
             this.btnDetails.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(305, 61);
@@ -306,7 +306,7 @@
             this.btnCancel.ButtonText = "Hủy";
             this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCancel.ForeColor = System.Drawing.Color.Crimson;
             this.btnCancel.IdleBorderThickness = 2;
             this.btnCancel.IdleCornerRadius = 20;
             this.btnCancel.IdleFillColor = System.Drawing.Color.White;
@@ -369,7 +369,7 @@
             this.txbIDBookRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDBookRoom.isPassword = false;
             this.txbIDBookRoom.Location = new System.Drawing.Point(338, 111);
-            this.txbIDBookRoom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbIDBookRoom.Margin = new System.Windows.Forms.Padding(6);
             this.txbIDBookRoom.Name = "txbIDBookRoom";
             this.txbIDBookRoom.Size = new System.Drawing.Size(437, 45);
             this.txbIDBookRoom.TabIndex = 27;
@@ -427,7 +427,7 @@
             this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox6.Size = new System.Drawing.Size(1380, 255);
+            this.groupBox6.Size = new System.Drawing.Size(1333, 255);
             this.groupBox6.TabIndex = 33;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Thông tin nhận phòng";
@@ -445,7 +445,7 @@
             this.txbRoomName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbRoomName.isPassword = false;
             this.txbRoomName.Location = new System.Drawing.Point(726, 82);
-            this.txbRoomName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbRoomName.Margin = new System.Windows.Forms.Padding(6);
             this.txbRoomName.Name = "txbRoomName";
             this.txbRoomName.Size = new System.Drawing.Size(260, 45);
             this.txbRoomName.TabIndex = 53;
@@ -477,7 +477,7 @@
             this.txbIDCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDCard.isPassword = false;
             this.txbIDCard.Location = new System.Drawing.Point(50, 165);
-            this.txbIDCard.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbIDCard.Margin = new System.Windows.Forms.Padding(6);
             this.txbIDCard.Name = "txbIDCard";
             this.txbIDCard.Size = new System.Drawing.Size(305, 45);
             this.txbIDCard.TabIndex = 50;
@@ -507,7 +507,7 @@
             this.txbFullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbFullName.isPassword = false;
             this.txbFullName.Location = new System.Drawing.Point(50, 82);
-            this.txbFullName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbFullName.Margin = new System.Windows.Forms.Padding(6);
             this.txbFullName.Name = "txbFullName";
             this.txbFullName.Size = new System.Drawing.Size(305, 45);
             this.txbFullName.TabIndex = 49;
@@ -537,9 +537,9 @@
             this.txbPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPrice.isPassword = false;
             this.txbPrice.Location = new System.Drawing.Point(1044, 165);
-            this.txbPrice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbPrice.Margin = new System.Windows.Forms.Padding(6);
             this.txbPrice.Name = "txbPrice";
-            this.txbPrice.Size = new System.Drawing.Size(305, 45);
+            this.txbPrice.Size = new System.Drawing.Size(237, 45);
             this.txbPrice.TabIndex = 47;
             this.txbPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbPrice.OnValueChanged += new System.EventHandler(this.txbPrice_OnValueChanged);
@@ -569,9 +569,9 @@
             this.txbAmountPeople.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbAmountPeople.isPassword = false;
             this.txbAmountPeople.Location = new System.Drawing.Point(1044, 82);
-            this.txbAmountPeople.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbAmountPeople.Margin = new System.Windows.Forms.Padding(6);
             this.txbAmountPeople.Name = "txbAmountPeople";
-            this.txbAmountPeople.Size = new System.Drawing.Size(305, 45);
+            this.txbAmountPeople.Size = new System.Drawing.Size(237, 45);
             this.txbAmountPeople.TabIndex = 45;
             this.txbAmountPeople.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbAmountPeople.OnValueChanged += new System.EventHandler(this.txbAmountPeople_OnValueChanged);
@@ -601,7 +601,7 @@
             this.txbRoomTypeName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbRoomTypeName.isPassword = false;
             this.txbRoomTypeName.Location = new System.Drawing.Point(726, 165);
-            this.txbRoomTypeName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbRoomTypeName.Margin = new System.Windows.Forms.Padding(6);
             this.txbRoomTypeName.Name = "txbRoomTypeName";
             this.txbRoomTypeName.Size = new System.Drawing.Size(260, 45);
             this.txbRoomTypeName.TabIndex = 43;
@@ -633,7 +633,7 @@
             this.txbDateCheckOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbDateCheckOut.isPassword = false;
             this.txbDateCheckOut.Location = new System.Drawing.Point(411, 166);
-            this.txbDateCheckOut.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbDateCheckOut.Margin = new System.Windows.Forms.Padding(6);
             this.txbDateCheckOut.Name = "txbDateCheckOut";
             this.txbDateCheckOut.Size = new System.Drawing.Size(248, 45);
             this.txbDateCheckOut.TabIndex = 40;
@@ -651,7 +651,7 @@
             this.txbDateCheckIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbDateCheckIn.isPassword = false;
             this.txbDateCheckIn.Location = new System.Drawing.Point(411, 82);
-            this.txbDateCheckIn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txbDateCheckIn.Margin = new System.Windows.Forms.Padding(6);
             this.txbDateCheckIn.Name = "txbDateCheckIn";
             this.txbDateCheckIn.Size = new System.Drawing.Size(248, 45);
             this.txbDateCheckIn.TabIndex = 36;
@@ -764,7 +764,7 @@
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(1431, 9);
+            this.btnClose.Location = new System.Drawing.Point(1368, 9);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(24, 25);
@@ -779,7 +779,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1439, 988);
+            this.ClientSize = new System.Drawing.Size(1376, 988);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label5);

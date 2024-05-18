@@ -194,9 +194,9 @@
             this.groupBox1.Controls.Add(this.bindingStaff);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Gray;
-            this.groupBox1.Location = new System.Drawing.Point(49, 598);
+            this.groupBox1.Location = new System.Drawing.Point(44, 584);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1227, 347);
+            this.groupBox1.Size = new System.Drawing.Size(1141, 347);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh Sách Nhân Viên";
@@ -256,7 +256,7 @@
             this.dataGridStaff.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridStaff.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridStaff.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridStaff.Size = new System.Drawing.Size(1221, 264);
+            this.dataGridStaff.Size = new System.Drawing.Size(1135, 264);
             this.dataGridStaff.TabIndex = 28;
             this.dataGridStaff.SelectionChanged += new System.EventHandler(this.DataGridStaffType_SelectionChanged);
             // 
@@ -387,7 +387,7 @@
             this.bindingStaff.Name = "bindingStaff";
             this.bindingStaff.PositionItem = this.bindingNavigatorPositionItem;
             this.bindingStaff.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.bindingStaff.Size = new System.Drawing.Size(1221, 45);
+            this.bindingStaff.Size = new System.Drawing.Size(1135, 45);
             this.bindingStaff.TabIndex = 29;
             this.bindingStaff.Text = "bindingNavigator1";
             // 
@@ -484,7 +484,7 @@
             this.groupStaff.ForeColor = System.Drawing.Color.Gray;
             this.groupStaff.Location = new System.Drawing.Point(44, 165);
             this.groupStaff.Name = "groupStaff";
-            this.groupStaff.Size = new System.Drawing.Size(886, 152);
+            this.groupStaff.Size = new System.Drawing.Size(799, 152);
             this.groupStaff.TabIndex = 1;
             this.groupStaff.TabStop = false;
             this.groupStaff.Text = "Tài khoản nhân viên";
@@ -498,7 +498,7 @@
             this.datePickerStartDay.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.datePickerStartDay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datePickerStartDay.FormatCustom = null;
-            this.datePickerStartDay.Location = new System.Drawing.Point(643, 88);
+            this.datePickerStartDay.Location = new System.Drawing.Point(554, 91);
             this.datePickerStartDay.Margin = new System.Windows.Forms.Padding(152, 445, 152, 403);
             this.datePickerStartDay.Name = "datePickerStartDay";
             this.datePickerStartDay.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -522,7 +522,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label7.Location = new System.Drawing.Point(636, 54);
+            this.label7.Location = new System.Drawing.Point(547, 57);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(159, 31);
             this.label7.TabIndex = 60;
@@ -557,7 +557,7 @@
             this.comboBoxStaffType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.comboBoxStaffType.FormattingEnabled = true;
             this.comboBoxStaffType.ItemHeight = 23;
-            this.comboBoxStaffType.Location = new System.Drawing.Point(349, 91);
+            this.comboBoxStaffType.Location = new System.Drawing.Point(314, 91);
             this.comboBoxStaffType.Name = "comboBoxStaffType";
             this.comboBoxStaffType.Size = new System.Drawing.Size(197, 29);
             this.comboBoxStaffType.Style = MetroFramework.MetroColorStyle.Green;
@@ -572,7 +572,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label20.Location = new System.Drawing.Point(343, 57);
+            this.label20.Location = new System.Drawing.Point(308, 57);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(166, 31);
             this.label20.TabIndex = 52;
@@ -595,9 +595,9 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Gray;
-            this.groupBox2.Location = new System.Drawing.Point(49, 340);
+            this.groupBox2.Location = new System.Drawing.Point(44, 325);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(936, 252);
+            this.groupBox2.Size = new System.Drawing.Size(861, 238);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin nhân viên";
@@ -612,7 +612,7 @@
             this.txbAddress.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbAddress.isPassword = false;
-            this.txbAddress.Location = new System.Drawing.Point(619, 176);
+            this.txbAddress.Location = new System.Drawing.Point(548, 173);
             this.txbAddress.Margin = new System.Windows.Forms.Padding(0);
             this.txbAddress.Name = "txbAddress";
             this.txbAddress.Size = new System.Drawing.Size(295, 39);
@@ -631,7 +631,7 @@
             this.txbPhoneNumber.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPhoneNumber.isPassword = false;
-            this.txbPhoneNumber.Location = new System.Drawing.Point(322, 173);
+            this.txbPhoneNumber.Location = new System.Drawing.Point(277, 173);
             this.txbPhoneNumber.Margin = new System.Windows.Forms.Padding(0);
             this.txbPhoneNumber.Name = "txbPhoneNumber";
             this.txbPhoneNumber.Size = new System.Drawing.Size(182, 39);
@@ -647,7 +647,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label14.Location = new System.Drawing.Point(316, 142);
+            this.label14.Location = new System.Drawing.Point(271, 142);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(153, 31);
             this.label14.TabIndex = 55;
@@ -658,7 +658,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label11.Location = new System.Drawing.Point(613, 145);
+            this.label11.Location = new System.Drawing.Point(542, 142);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(89, 31);
             this.label11.TabIndex = 57;
@@ -714,7 +714,7 @@
             "Nam",
             "Nữ",
             "Khác"});
-            this.comboBoxSex.Location = new System.Drawing.Point(619, 78);
+            this.comboBoxSex.Location = new System.Drawing.Point(548, 75);
             this.comboBoxSex.Name = "comboBoxSex";
             this.comboBoxSex.Size = new System.Drawing.Size(175, 29);
             this.comboBoxSex.Style = MetroFramework.MetroColorStyle.Green;
@@ -748,7 +748,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label2.Location = new System.Drawing.Point(613, 44);
+            this.label2.Location = new System.Drawing.Point(542, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 31);
             this.label2.TabIndex = 41;
@@ -759,7 +759,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label3.Location = new System.Drawing.Point(316, 44);
+            this.label3.Location = new System.Drawing.Point(271, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 31);
             this.label3.TabIndex = 24;
@@ -775,7 +775,7 @@
             this.txbIDcard.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbIDcard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDcard.isPassword = false;
-            this.txbIDcard.Location = new System.Drawing.Point(322, 75);
+            this.txbIDcard.Location = new System.Drawing.Point(277, 75);
             this.txbIDcard.Margin = new System.Windows.Forms.Padding(0);
             this.txbIDcard.Name = "txbIDcard";
             this.txbIDcard.Size = new System.Drawing.Size(206, 38);
@@ -807,7 +807,7 @@
             this.groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.Gray;
-            this.groupBox4.Location = new System.Drawing.Point(1017, 165);
+            this.groupBox4.Location = new System.Drawing.Point(926, 165);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(259, 427);
             this.groupBox4.TabIndex = 45;
@@ -974,7 +974,7 @@
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(1287, 5);
+            this.btnClose.Location = new System.Drawing.Point(1203, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(16, 16);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -988,7 +988,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1307, 964);
+            this.ClientSize = new System.Drawing.Size(1223, 964);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txbSearch);
             this.Controls.Add(this.groupBox4);

@@ -422,7 +422,7 @@
             // 
             this.panelLeft.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
-            this.panelLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panelLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelLeft.Controls.Add(this.btnLogOut);
             this.panelLeft.Controls.Add(this.btnNavigationPanel);
             this.panelLeft.Controls.Add(this.btnAccountProfile);
@@ -430,10 +430,10 @@
             this.panelLeft.Controls.Add(this.bunifuFlatButton1);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.panelLeft.GradientBottomLeft = System.Drawing.Color.DeepSkyBlue;
-            this.panelLeft.GradientBottomRight = System.Drawing.Color.DeepSkyBlue;
-            this.panelLeft.GradientTopLeft = System.Drawing.Color.DeepSkyBlue;
-            this.panelLeft.GradientTopRight = System.Drawing.Color.DeepSkyBlue;
+            this.panelLeft.GradientBottomLeft = System.Drawing.Color.LightSeaGreen;
+            this.panelLeft.GradientBottomRight = System.Drawing.Color.LightSeaGreen;
+            this.panelLeft.GradientTopLeft = System.Drawing.Color.LightSeaGreen;
+            this.panelLeft.GradientTopRight = System.Drawing.Color.LightSeaGreen;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelLeft.Name = "panelLeft";
@@ -444,7 +444,7 @@
             // 
             // btnLogOut
             // 
-            this.btnLogOut.Activecolor = System.Drawing.Color.DeepSkyBlue;
+            this.btnLogOut.Activecolor = System.Drawing.Color.Turquoise;
             this.btnLogOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLogOut.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -452,7 +452,7 @@
             this.btnLogOut.ButtonText = "    Đăng Xuất";
             this.btnLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogOut.DisabledColor = System.Drawing.Color.Gray;
-            this.btnLogOut.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.Iconcolor = System.Drawing.Color.Transparent;
             this.btnLogOut.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Iconimage")));
             this.btnLogOut.Iconimage_right = null;
@@ -463,13 +463,13 @@
             this.btnLogOut.IconRightVisible = true;
             this.btnLogOut.IconRightZoom = 0D;
             this.btnLogOut.IconVisible = true;
-            this.btnLogOut.IconZoom = 50D;
+            this.btnLogOut.IconZoom = 45D;
             this.btnLogOut.IsTab = false;
             this.btnLogOut.Location = new System.Drawing.Point(0, 765);
             this.btnLogOut.Margin = new System.Windows.Forms.Padding(6);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Normalcolor = System.Drawing.Color.DeepSkyBlue;
-            this.btnLogOut.OnHovercolor = System.Drawing.Color.LightBlue;
+            this.btnLogOut.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnLogOut.OnHovercolor = System.Drawing.Color.Turquoise;
             this.btnLogOut.OnHoverTextColor = System.Drawing.Color.White;
             this.btnLogOut.selected = false;
             this.btnLogOut.Size = new System.Drawing.Size(266, 61);
@@ -482,13 +482,14 @@
             // 
             // btnNavigationPanel
             // 
-            this.btnNavigationPanel.Activecolor = System.Drawing.Color.DeepSkyBlue;
+            this.btnNavigationPanel.Activecolor = System.Drawing.Color.Turquoise;
             this.btnNavigationPanel.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnNavigationPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNavigationPanel.BorderRadius = 0;
             this.btnNavigationPanel.ButtonText = "";
             this.btnNavigationPanel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNavigationPanel.DisabledColor = System.Drawing.SystemColors.GrayText;
+            this.btnNavigationPanel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNavigationPanel.Iconcolor = System.Drawing.Color.Transparent;
             this.btnNavigationPanel.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnNavigationPanel.Iconimage")));
             this.btnNavigationPanel.Iconimage_right = null;
@@ -504,8 +505,8 @@
             this.btnNavigationPanel.Location = new System.Drawing.Point(0, 0);
             this.btnNavigationPanel.Margin = new System.Windows.Forms.Padding(6);
             this.btnNavigationPanel.Name = "btnNavigationPanel";
-            this.btnNavigationPanel.Normalcolor = System.Drawing.Color.DeepSkyBlue;
-            this.btnNavigationPanel.OnHovercolor = System.Drawing.Color.LightBlue;
+            this.btnNavigationPanel.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnNavigationPanel.OnHovercolor = System.Drawing.Color.Turquoise;
             this.btnNavigationPanel.OnHoverTextColor = System.Drawing.Color.White;
             this.btnNavigationPanel.selected = false;
             this.btnNavigationPanel.Size = new System.Drawing.Size(266, 61);
@@ -525,7 +526,7 @@
             this.btnAccountProfile.ButtonText = "    Thông Tin Cá Nhân";
             this.btnAccountProfile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAccountProfile.DisabledColor = System.Drawing.Color.Gray;
-            this.btnAccountProfile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccountProfile.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccountProfile.Iconcolor = System.Drawing.Color.Transparent;
             this.btnAccountProfile.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAccountProfile.Iconimage")));
             this.btnAccountProfile.Iconimage_right = null;
@@ -536,7 +537,7 @@
             this.btnAccountProfile.IconRightVisible = true;
             this.btnAccountProfile.IconRightZoom = 0D;
             this.btnAccountProfile.IconVisible = true;
-            this.btnAccountProfile.IconZoom = 50D;
+            this.btnAccountProfile.IconZoom = 45D;
             this.btnAccountProfile.IsTab = false;
             this.btnAccountProfile.Location = new System.Drawing.Point(0, 691);
             this.btnAccountProfile.Margin = new System.Windows.Forms.Padding(6);
@@ -555,7 +556,7 @@
             // 
             // btnIntroduce
             // 
-            this.btnIntroduce.Activecolor = System.Drawing.Color.DeepSkyBlue;
+            this.btnIntroduce.Activecolor = System.Drawing.Color.Turquoise;
             this.btnIntroduce.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnIntroduce.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnIntroduce.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -563,7 +564,7 @@
             this.btnIntroduce.ButtonText = "    Giới Thiệu";
             this.btnIntroduce.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnIntroduce.DisabledColor = System.Drawing.Color.Gray;
-            this.btnIntroduce.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIntroduce.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIntroduce.Iconcolor = System.Drawing.Color.Transparent;
             this.btnIntroduce.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnIntroduce.Iconimage")));
             this.btnIntroduce.Iconimage_right = null;
@@ -574,13 +575,13 @@
             this.btnIntroduce.IconRightVisible = true;
             this.btnIntroduce.IconRightZoom = 0D;
             this.btnIntroduce.IconVisible = true;
-            this.btnIntroduce.IconZoom = 50D;
+            this.btnIntroduce.IconZoom = 45D;
             this.btnIntroduce.IsTab = false;
             this.btnIntroduce.Location = new System.Drawing.Point(0, 835);
             this.btnIntroduce.Margin = new System.Windows.Forms.Padding(6);
             this.btnIntroduce.Name = "btnIntroduce";
-            this.btnIntroduce.Normalcolor = System.Drawing.Color.DeepSkyBlue;
-            this.btnIntroduce.OnHovercolor = System.Drawing.Color.LightBlue;
+            this.btnIntroduce.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnIntroduce.OnHovercolor = System.Drawing.Color.Turquoise;
             this.btnIntroduce.OnHoverTextColor = System.Drawing.Color.White;
             this.btnIntroduce.selected = false;
             this.btnIntroduce.Size = new System.Drawing.Size(266, 61);

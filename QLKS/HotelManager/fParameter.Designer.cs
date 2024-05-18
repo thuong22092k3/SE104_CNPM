@@ -198,7 +198,7 @@
             this.dataGridViewParameter.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewParameter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewParameter.GridColor = System.Drawing.Color.White;
-            this.dataGridViewParameter.Location = new System.Drawing.Point(3, 62);
+            this.dataGridViewParameter.Location = new System.Drawing.Point(3, 73);
             this.dataGridViewParameter.Name = "dataGridViewParameter";
             this.dataGridViewParameter.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -215,7 +215,7 @@
             this.dataGridViewParameter.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewParameter.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewParameter.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewParameter.Size = new System.Drawing.Size(1025, 235);
+            this.dataGridViewParameter.Size = new System.Drawing.Size(1025, 224);
             this.dataGridViewParameter.TabIndex = 28;
             this.dataGridViewParameter.SelectionChanged += new System.EventHandler(this.DataGridSurcharge_SelectionChanged);
             // 
@@ -282,7 +282,7 @@
             this.bindingSurcharge.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingSurcharge.Name = "bindingSurcharge";
             this.bindingSurcharge.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingSurcharge.Size = new System.Drawing.Size(1025, 27);
+            this.bindingSurcharge.Size = new System.Drawing.Size(1025, 38);
             this.bindingSurcharge.TabIndex = 29;
             this.bindingSurcharge.Text = "bindingNavigator1";
             // 
@@ -317,7 +317,7 @@
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 38);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -332,7 +332,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 38);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -357,7 +357,7 @@
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 38);
             // 
             // toolStripLabel1
             // 
