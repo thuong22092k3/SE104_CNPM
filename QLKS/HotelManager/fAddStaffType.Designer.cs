@@ -58,7 +58,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(489, 7);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -71,21 +71,21 @@
             // 
             this.bunifuThinButton25.ActiveBorderThickness = 1;
             this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuThinButton25.BackColor = System.Drawing.Color.White;
             this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
             this.bunifuThinButton25.ButtonText = "Đóng";
             this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton25.ForeColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.IdleBorderThickness = 1;
             this.bunifuThinButton25.IdleCornerRadius = 20;
             this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.Crimson;
+            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.Gray;
             this.bunifuThinButton25.Location = new System.Drawing.Point(259, 26);
             this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.bunifuThinButton25.Name = "bunifuThinButton25";
@@ -98,21 +98,21 @@
             // 
             this.btn.ActiveBorderThickness = 1;
             this.btn.ActiveCornerRadius = 20;
-            this.btn.ActiveFillColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn.ActiveFillColor = System.Drawing.Color.Turquoise;
             this.btn.ActiveForecolor = System.Drawing.Color.White;
-            this.btn.ActiveLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn.ActiveLineColor = System.Drawing.Color.LightSeaGreen;
             this.btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn.BackColor = System.Drawing.Color.White;
             this.btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn.BackgroundImage")));
             this.btn.ButtonText = "Cập Nhật";
             this.btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.btn.IdleBorderThickness = 1;
             this.btn.IdleCornerRadius = 20;
             this.btn.IdleFillColor = System.Drawing.Color.White;
-            this.btn.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
-            this.btn.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn.IdleForecolor = System.Drawing.Color.LightSeaGreen;
+            this.btn.IdleLineColor = System.Drawing.Color.Gray;
             this.btn.Location = new System.Drawing.Point(9, 26);
             this.btn.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn.Name = "btn";
@@ -123,9 +123,9 @@
             // 
             // txbName
             // 
-            this.txbName.BorderColorFocused = System.Drawing.Color.DeepSkyBlue;
-            this.txbName.BorderColorIdle = System.Drawing.Color.DeepSkyBlue;
-            this.txbName.BorderColorMouseHover = System.Drawing.Color.DeepSkyBlue;
+            this.txbName.BorderColorFocused = System.Drawing.Color.Gray;
+            this.txbName.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txbName.BorderColorMouseHover = System.Drawing.Color.LightSeaGreen;
             this.txbName.BorderThickness = 1;
             this.txbName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txbName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -143,7 +143,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label5.Location = new System.Drawing.Point(8, 36);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -156,11 +156,11 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.txbName);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox3.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.groupBox3.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.groupBox3.Location = new System.Drawing.Point(7, 60);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(507, 85);
             this.groupBox3.TabIndex = 68;
             this.groupBox3.TabStop = false;
@@ -170,11 +170,11 @@
             // 
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.title.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.title.Location = new System.Drawing.Point(7, 11);
             this.title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(373, 46);
+            this.title.Size = new System.Drawing.Size(364, 45);
             this.title.TabIndex = 69;
             this.title.Text = "Thêm Loại Nhân Viên";
             // 
@@ -183,11 +183,11 @@
             this.groupBox1.Controls.Add(this.btn);
             this.groupBox1.Controls.Add(this.bunifuThinButton25);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.groupBox1.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.groupBox1.Location = new System.Drawing.Point(7, 153);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(507, 85);
             this.groupBox1.TabIndex = 70;
             this.groupBox1.TabStop = false;
@@ -205,7 +205,7 @@
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fAddStaffType";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAddStaffType";

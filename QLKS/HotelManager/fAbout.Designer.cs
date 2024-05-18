@@ -163,20 +163,20 @@
             // 
             this.bunifuThinButton25.ActiveBorderThickness = 1;
             this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.Turquoise;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuThinButton25.BackColor = System.Drawing.Color.White;
             this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
             this.bunifuThinButton25.ButtonText = "Đóng";
             this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton25.ForeColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.IdleBorderThickness = 1;
             this.bunifuThinButton25.IdleCornerRadius = 20;
             this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.Gray;
             this.bunifuThinButton25.Location = new System.Drawing.Point(408, 448);
             this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);

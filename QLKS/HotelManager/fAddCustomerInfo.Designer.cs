@@ -166,9 +166,10 @@
             // 
             // dpkDateOfBirth
             // 
-            this.dpkDateOfBirth.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.dpkDateOfBirth.BackColor = System.Drawing.Color.MintCream;
             this.dpkDateOfBirth.BorderRadius = 0;
-            this.dpkDateOfBirth.ForeColor = System.Drawing.Color.White;
+            this.dpkDateOfBirth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dpkDateOfBirth.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.dpkDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dpkDateOfBirth.FormatCustom = null;
             this.dpkDateOfBirth.Location = new System.Drawing.Point(320, 57);
@@ -416,19 +417,19 @@
             // 
             this.btnClose_.ActiveBorderThickness = 1;
             this.btnClose_.ActiveCornerRadius = 20;
-            this.btnClose_.ActiveFillColor = System.Drawing.Color.LightSeaGreen;
+            this.btnClose_.ActiveFillColor = System.Drawing.Color.Crimson;
             this.btnClose_.ActiveForecolor = System.Drawing.Color.White;
-            this.btnClose_.ActiveLineColor = System.Drawing.Color.LightSeaGreen;
+            this.btnClose_.ActiveLineColor = System.Drawing.Color.Crimson;
             this.btnClose_.BackColor = System.Drawing.Color.White;
             this.btnClose_.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose_.BackgroundImage")));
             this.btnClose_.ButtonText = "Đóng";
             this.btnClose_.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose_.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose_.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.btnClose_.ForeColor = System.Drawing.Color.Crimson;
             this.btnClose_.IdleBorderThickness = 1;
             this.btnClose_.IdleCornerRadius = 20;
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose_.IdleForecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnClose_.IdleForecolor = System.Drawing.Color.Crimson;
             this.btnClose_.IdleLineColor = System.Drawing.Color.Gray;
             this.btnClose_.Location = new System.Drawing.Point(13, 85);
             this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -468,19 +469,19 @@
             // 
             this.bunifuThinButton21.ActiveBorderThickness = 1;
             this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "Hủy";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton21.IdleBorderThickness = 1;
             this.bunifuThinButton21.IdleCornerRadius = 20;
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Crimson;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Gray;
             this.bunifuThinButton21.Location = new System.Drawing.Point(320, 30);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);

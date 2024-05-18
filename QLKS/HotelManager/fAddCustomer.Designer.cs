@@ -161,9 +161,10 @@
             // 
             // datepickerDateOfBirth
             // 
-            this.datepickerDateOfBirth.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.datepickerDateOfBirth.BackColor = System.Drawing.Color.MintCream;
             this.datepickerDateOfBirth.BorderRadius = 0;
-            this.datepickerDateOfBirth.ForeColor = System.Drawing.Color.White;
+            this.datepickerDateOfBirth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.datepickerDateOfBirth.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.datepickerDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datepickerDateOfBirth.FormatCustom = null;
             this.datepickerDateOfBirth.Location = new System.Drawing.Point(320, 57);
@@ -410,19 +411,19 @@
             // 
             this.btnClose_.ActiveBorderThickness = 1;
             this.btnClose_.ActiveCornerRadius = 20;
-            this.btnClose_.ActiveFillColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnClose_.ActiveFillColor = System.Drawing.Color.Crimson;
             this.btnClose_.ActiveForecolor = System.Drawing.Color.White;
-            this.btnClose_.ActiveLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnClose_.ActiveLineColor = System.Drawing.Color.Crimson;
             this.btnClose_.BackColor = System.Drawing.Color.White;
             this.btnClose_.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose_.BackgroundImage")));
             this.btnClose_.ButtonText = "Đóng";
             this.btnClose_.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose_.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose_.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.btnClose_.ForeColor = System.Drawing.Color.Crimson;
             this.btnClose_.IdleBorderThickness = 1;
             this.btnClose_.IdleCornerRadius = 20;
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose_.IdleForecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnClose_.IdleForecolor = System.Drawing.Color.Crimson;
             this.btnClose_.IdleLineColor = System.Drawing.Color.Gray;
             this.btnClose_.Location = new System.Drawing.Point(320, 30);
             this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
