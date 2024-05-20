@@ -57,10 +57,10 @@
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(489, 7);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClose.Location = new System.Drawing.Point(594, 9);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(21, 20);
+            this.btnClose.Size = new System.Drawing.Size(24, 25);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnClose.TabIndex = 58;
             this.btnClose.TabStop = false;
@@ -86,10 +86,10 @@
             this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.Crimson;
             this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton25.Location = new System.Drawing.Point(259, 26);
-            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bunifuThinButton25.Location = new System.Drawing.Point(291, 32);
+            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuThinButton25.Name = "bunifuThinButton25";
-            this.bunifuThinButton25.Size = new System.Drawing.Size(233, 49);
+            this.bunifuThinButton25.Size = new System.Drawing.Size(262, 61);
             this.bunifuThinButton25.TabIndex = 55;
             this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton25.Click += new System.EventHandler(this.bunifuThinButton25_Click);
@@ -113,10 +113,10 @@
             this.btn.IdleFillColor = System.Drawing.Color.White;
             this.btn.IdleForecolor = System.Drawing.Color.LightSeaGreen;
             this.btn.IdleLineColor = System.Drawing.Color.Gray;
-            this.btn.Location = new System.Drawing.Point(9, 26);
-            this.btn.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btn.Location = new System.Drawing.Point(10, 32);
+            this.btn.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(233, 49);
+            this.btn.Size = new System.Drawing.Size(262, 61);
             this.btn.TabIndex = 56;
             this.btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn.Click += new System.EventHandler(this.btn_Click);
@@ -131,10 +131,10 @@
             this.txbName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbName.isPassword = false;
-            this.txbName.Location = new System.Drawing.Point(259, 31);
+            this.txbName.Location = new System.Drawing.Point(291, 39);
             this.txbName.Margin = new System.Windows.Forms.Padding(0);
             this.txbName.Name = "txbName";
-            this.txbName.Size = new System.Drawing.Size(233, 36);
+            this.txbName.Size = new System.Drawing.Size(262, 45);
             this.txbName.TabIndex = 57;
             this.txbName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbName_KeyPress);
@@ -144,10 +144,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label5.Location = new System.Drawing.Point(8, 36);
+            this.label5.Location = new System.Drawing.Point(9, 45);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(169, 25);
+            this.label5.Size = new System.Drawing.Size(202, 31);
             this.label5.TabIndex = 58;
             this.label5.Text = "Tên loại nhân viên:";
             // 
@@ -157,11 +157,11 @@
             this.groupBox3.Controls.Add(this.txbName);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox3.Location = new System.Drawing.Point(7, 60);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Location = new System.Drawing.Point(23, 98);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(507, 85);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox3.Size = new System.Drawing.Size(570, 106);
             this.groupBox3.TabIndex = 68;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Loại Nhân Viên";
@@ -171,10 +171,10 @@
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.title.Location = new System.Drawing.Point(7, 11);
+            this.title.Location = new System.Drawing.Point(8, 14);
             this.title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(364, 45);
+            this.title.Size = new System.Drawing.Size(438, 54);
             this.title.TabIndex = 69;
             this.title.Text = "Thêm Loại Nhân Viên";
             // 
@@ -184,28 +184,28 @@
             this.groupBox1.Controls.Add(this.bunifuThinButton25);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox1.Location = new System.Drawing.Point(7, 153);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(23, 214);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(507, 85);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(570, 106);
             this.groupBox1.TabIndex = 70;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức Năng";
             // 
             // fAddStaffType
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(517, 241);
+            this.ClientSize = new System.Drawing.Size(626, 346);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.title);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "fAddStaffType";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAddStaffType";

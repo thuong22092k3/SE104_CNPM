@@ -55,14 +55,12 @@
             this.btnClose_ = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAddCustomer = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnSearch = new Bunifu.Framework.UI.BunifuThinButton2();
             this.txbIDCardSearch = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,10 +76,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label2.Location = new System.Drawing.Point(7, 11);
+            this.label2.Location = new System.Drawing.Point(8, 14);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(313, 45);
+            this.label2.Size = new System.Drawing.Size(380, 54);
             this.label2.TabIndex = 27;
             this.label2.Text = "Thêm Khách Hàng";
             // 
@@ -90,10 +88,10 @@
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(11, 58);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(12, 72);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(604, 12);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(680, 15);
             this.bunifuSeparator1.TabIndex = 30;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
@@ -120,11 +118,11 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox2.Location = new System.Drawing.Point(8, 192);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(32, 222);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(604, 318);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(680, 398);
             this.groupBox2.TabIndex = 49;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin khách hàng";
@@ -134,7 +132,7 @@
             this.cbNationality.BackColor = System.Drawing.Color.White;
             this.cbNationality.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbNationality.FormattingEnabled = true;
-            this.cbNationality.ItemHeight = 24;
+            this.cbNationality.ItemHeight = 23;
             this.cbNationality.Items.AddRange(new object[] {
             "Việt Nam",
             "Trung Quốc",
@@ -153,10 +151,10 @@
             "Tây Ban Nha",
             "Ý",
             "Khác"});
-            this.cbNationality.Location = new System.Drawing.Point(320, 255);
-            this.cbNationality.Margin = new System.Windows.Forms.Padding(4);
+            this.cbNationality.Location = new System.Drawing.Point(360, 319);
+            this.cbNationality.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbNationality.Name = "cbNationality";
-            this.cbNationality.Size = new System.Drawing.Size(269, 30);
+            this.cbNationality.Size = new System.Drawing.Size(302, 29);
             this.cbNationality.Style = MetroFramework.MetroColorStyle.Green;
             this.cbNationality.TabIndex = 53;
             this.cbNationality.UseCustomBackColor = true;
@@ -172,11 +170,11 @@
             this.dpkDateOfBirth.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.dpkDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dpkDateOfBirth.FormatCustom = null;
-            this.dpkDateOfBirth.Location = new System.Drawing.Point(320, 57);
-            this.dpkDateOfBirth.Margin = new System.Windows.Forms.Padding(19, 26, 19, 26);
+            this.dpkDateOfBirth.Location = new System.Drawing.Point(360, 71);
+            this.dpkDateOfBirth.Margin = new System.Windows.Forms.Padding(21, 32, 21, 32);
             this.dpkDateOfBirth.Name = "dpkDateOfBirth";
             this.dpkDateOfBirth.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dpkDateOfBirth.Size = new System.Drawing.Size(271, 36);
+            this.dpkDateOfBirth.Size = new System.Drawing.Size(305, 44);
             this.dpkDateOfBirth.TabIndex = 47;
             this.dpkDateOfBirth.Value = new System.DateTime(1998, 4, 6, 0, 0, 0, 0);
             // 
@@ -185,10 +183,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label6.Location = new System.Drawing.Point(317, 30);
+            this.label6.Location = new System.Drawing.Point(357, 38);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 25);
+            this.label6.Size = new System.Drawing.Size(121, 31);
             this.label6.TabIndex = 46;
             this.label6.Text = "Ngày sinh:";
             // 
@@ -197,11 +195,11 @@
             this.cbCustomerType.BackColor = System.Drawing.Color.White;
             this.cbCustomerType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbCustomerType.FormattingEnabled = true;
-            this.cbCustomerType.ItemHeight = 24;
-            this.cbCustomerType.Location = new System.Drawing.Point(13, 191);
-            this.cbCustomerType.Margin = new System.Windows.Forms.Padding(4);
+            this.cbCustomerType.ItemHeight = 23;
+            this.cbCustomerType.Location = new System.Drawing.Point(15, 239);
+            this.cbCustomerType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbCustomerType.Name = "cbCustomerType";
-            this.cbCustomerType.Size = new System.Drawing.Size(269, 30);
+            this.cbCustomerType.Size = new System.Drawing.Size(302, 29);
             this.cbCustomerType.TabIndex = 42;
             this.cbCustomerType.UseCustomBackColor = true;
             this.cbCustomerType.UseCustomForeColor = true;
@@ -213,10 +211,10 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label20.Location = new System.Drawing.Point(11, 161);
+            this.label20.Location = new System.Drawing.Point(12, 201);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(154, 25);
+            this.label20.Size = new System.Drawing.Size(185, 31);
             this.label20.TabIndex = 41;
             this.label20.Text = "Loại khách hàng:";
             // 
@@ -227,10 +225,10 @@
             this.DatepickerDateOfReceive.ForeColor = System.Drawing.Color.White;
             this.DatepickerDateOfReceive.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DatepickerDateOfReceive.FormatCustom = "";
-            this.DatepickerDateOfReceive.Location = new System.Drawing.Point(56, 943);
-            this.DatepickerDateOfReceive.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.DatepickerDateOfReceive.Location = new System.Drawing.Point(63, 1179);
+            this.DatepickerDateOfReceive.Margin = new System.Windows.Forms.Padding(9, 12, 9, 12);
             this.DatepickerDateOfReceive.Name = "DatepickerDateOfReceive";
-            this.DatepickerDateOfReceive.Size = new System.Drawing.Size(405, 58);
+            this.DatepickerDateOfReceive.Size = new System.Drawing.Size(456, 72);
             this.DatepickerDateOfReceive.TabIndex = 30;
             this.DatepickerDateOfReceive.Value = new System.DateTime(2018, 2, 23, 23, 29, 57, 962);
             // 
@@ -244,10 +242,10 @@
             this.txbAddress.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbAddress.isPassword = false;
-            this.txbAddress.Location = new System.Drawing.Point(320, 124);
-            this.txbAddress.Margin = new System.Windows.Forms.Padding(5);
+            this.txbAddress.Location = new System.Drawing.Point(360, 155);
+            this.txbAddress.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txbAddress.Name = "txbAddress";
-            this.txbAddress.Size = new System.Drawing.Size(271, 36);
+            this.txbAddress.Size = new System.Drawing.Size(305, 45);
             this.txbAddress.TabIndex = 25;
             this.txbAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -256,10 +254,10 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label11.Location = new System.Drawing.Point(317, 98);
+            this.label11.Location = new System.Drawing.Point(357, 122);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 25);
+            this.label11.Size = new System.Drawing.Size(89, 31);
             this.label11.TabIndex = 35;
             this.label11.Text = "Địa chỉ:";
             // 
@@ -268,15 +266,15 @@
             this.cbSex.BackColor = System.Drawing.Color.White;
             this.cbSex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbSex.FormattingEnabled = true;
-            this.cbSex.ItemHeight = 24;
+            this.cbSex.ItemHeight = 23;
             this.cbSex.Items.AddRange(new object[] {
             "Nam",
             "Nữ",
             "Khác"});
-            this.cbSex.Location = new System.Drawing.Point(320, 187);
-            this.cbSex.Margin = new System.Windows.Forms.Padding(4);
+            this.cbSex.Location = new System.Drawing.Point(360, 234);
+            this.cbSex.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbSex.Name = "cbSex";
-            this.cbSex.Size = new System.Drawing.Size(269, 30);
+            this.cbSex.Size = new System.Drawing.Size(302, 29);
             this.cbSex.Style = MetroFramework.MetroColorStyle.Green;
             this.cbSex.TabIndex = 26;
             this.cbSex.UseCustomBackColor = true;
@@ -289,10 +287,10 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label12.Location = new System.Drawing.Point(317, 224);
+            this.label12.Location = new System.Drawing.Point(357, 280);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(97, 25);
+            this.label12.Size = new System.Drawing.Size(117, 31);
             this.label12.TabIndex = 29;
             this.label12.Text = "Quốc tịch:";
             // 
@@ -301,10 +299,10 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label13.Location = new System.Drawing.Point(317, 161);
+            this.label13.Location = new System.Drawing.Point(357, 201);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 25);
+            this.label13.Size = new System.Drawing.Size(107, 31);
             this.label13.TabIndex = 28;
             this.label13.Text = "Giới tính:";
             // 
@@ -318,10 +316,10 @@
             this.txbPhoneNumber.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPhoneNumber.isPassword = false;
-            this.txbPhoneNumber.Location = new System.Drawing.Point(13, 255);
-            this.txbPhoneNumber.Margin = new System.Windows.Forms.Padding(5);
+            this.txbPhoneNumber.Location = new System.Drawing.Point(15, 319);
+            this.txbPhoneNumber.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txbPhoneNumber.Name = "txbPhoneNumber";
-            this.txbPhoneNumber.Size = new System.Drawing.Size(271, 36);
+            this.txbPhoneNumber.Size = new System.Drawing.Size(305, 45);
             this.txbPhoneNumber.TabIndex = 24;
             this.txbPhoneNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbPhoneNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbPhoneNumber_KeyPress);
@@ -331,10 +329,10 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label14.Location = new System.Drawing.Point(11, 230);
+            this.label14.Location = new System.Drawing.Point(12, 288);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(127, 25);
+            this.label14.Size = new System.Drawing.Size(153, 31);
             this.label14.TabIndex = 26;
             this.label14.Text = "Số điện thoại:";
             // 
@@ -348,10 +346,10 @@
             this.txbIDCard.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbIDCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDCard.isPassword = false;
-            this.txbIDCard.Location = new System.Drawing.Point(13, 122);
-            this.txbIDCard.Margin = new System.Windows.Forms.Padding(5);
+            this.txbIDCard.Location = new System.Drawing.Point(15, 152);
+            this.txbIDCard.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txbIDCard.Name = "txbIDCard";
-            this.txbIDCard.Size = new System.Drawing.Size(271, 36);
+            this.txbIDCard.Size = new System.Drawing.Size(305, 45);
             this.txbIDCard.TabIndex = 22;
             this.txbIDCard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbIDCard.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbIDCard_KeyPress);
@@ -361,10 +359,10 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label15.Location = new System.Drawing.Point(11, 95);
+            this.label15.Location = new System.Drawing.Point(12, 119);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(195, 25);
+            this.label15.Size = new System.Drawing.Size(237, 31);
             this.label15.TabIndex = 24;
             this.label15.Text = "Thẻ căn cước/ CMND:";
             // 
@@ -378,10 +376,10 @@
             this.txbFullName.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbFullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbFullName.isPassword = false;
-            this.txbFullName.Location = new System.Drawing.Point(13, 57);
-            this.txbFullName.Margin = new System.Windows.Forms.Padding(5);
+            this.txbFullName.Location = new System.Drawing.Point(15, 71);
+            this.txbFullName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txbFullName.Name = "txbFullName";
-            this.txbFullName.Size = new System.Drawing.Size(271, 36);
+            this.txbFullName.Size = new System.Drawing.Size(305, 45);
             this.txbFullName.TabIndex = 21;
             this.txbFullName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -390,10 +388,10 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label16.Location = new System.Drawing.Point(11, 30);
+            this.label16.Location = new System.Drawing.Point(12, 38);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(96, 25);
+            this.label16.Size = new System.Drawing.Size(116, 31);
             this.label16.TabIndex = 22;
             this.label16.Text = "Họ và tên:";
             // 
@@ -404,11 +402,11 @@
             this.groupBox1.Controls.Add(this.bunifuThinButton21);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.groupBox1.Location = new System.Drawing.Point(8, 517);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(32, 640);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(604, 153);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(680, 191);
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
@@ -431,10 +429,10 @@
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
             this.btnClose_.IdleForecolor = System.Drawing.Color.Crimson;
             this.btnClose_.IdleLineColor = System.Drawing.Color.Gray;
-            this.btnClose_.Location = new System.Drawing.Point(13, 85);
-            this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnClose_.Location = new System.Drawing.Point(15, 106);
+            this.btnClose_.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.btnClose_.Name = "btnClose_";
-            this.btnClose_.Size = new System.Drawing.Size(271, 49);
+            this.btnClose_.Size = new System.Drawing.Size(305, 61);
             this.btnClose_.TabIndex = 51;
             this.btnClose_.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnClose_.Click += new System.EventHandler(this.btnClose__Click);
@@ -457,10 +455,10 @@
             this.btnAddCustomer.IdleFillColor = System.Drawing.Color.White;
             this.btnAddCustomer.IdleForecolor = System.Drawing.Color.LightSeaGreen;
             this.btnAddCustomer.IdleLineColor = System.Drawing.Color.Gray;
-            this.btnAddCustomer.Location = new System.Drawing.Point(16, 30);
-            this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnAddCustomer.Location = new System.Drawing.Point(18, 38);
+            this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.btnAddCustomer.Name = "btnAddCustomer";
-            this.btnAddCustomer.Size = new System.Drawing.Size(271, 49);
+            this.btnAddCustomer.Size = new System.Drawing.Size(305, 61);
             this.btnAddCustomer.TabIndex = 48;
             this.btnAddCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
@@ -482,30 +480,14 @@
             this.bunifuThinButton21.IdleCornerRadius = 20;
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Crimson;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(320, 30);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Crimson;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(360, 38);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(271, 49);
+            this.bunifuThinButton21.Size = new System.Drawing.Size(305, 61);
             this.bunifuThinButton21.TabIndex = 50;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.btnSearch);
-            this.groupBox3.Controls.Add(this.txbIDCardSearch);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox3.ForeColor = System.Drawing.Color.Gray;
-            this.groupBox3.Location = new System.Drawing.Point(8, 71);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(605, 116);
-            this.groupBox3.TabIndex = 52;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Tìm kiếm khách hàng";
             // 
             // btnSearch
             // 
@@ -525,10 +507,10 @@
             this.btnSearch.IdleFillColor = System.Drawing.Color.White;
             this.btnSearch.IdleForecolor = System.Drawing.Color.LightSeaGreen;
             this.btnSearch.IdleLineColor = System.Drawing.Color.Gray;
-            this.btnSearch.Location = new System.Drawing.Point(320, 50);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnSearch.Location = new System.Drawing.Point(488, 142);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(271, 49);
+            this.btnSearch.Size = new System.Drawing.Size(166, 45);
             this.btnSearch.TabIndex = 46;
             this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -543,10 +525,10 @@
             this.txbIDCardSearch.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbIDCardSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDCardSearch.isPassword = false;
-            this.txbIDCardSearch.Location = new System.Drawing.Point(12, 60);
-            this.txbIDCardSearch.Margin = new System.Windows.Forms.Padding(5);
+            this.txbIDCardSearch.Location = new System.Drawing.Point(66, 142);
+            this.txbIDCardSearch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txbIDCardSearch.Name = "txbIDCardSearch";
-            this.txbIDCardSearch.Size = new System.Drawing.Size(271, 36);
+            this.txbIDCardSearch.Size = new System.Drawing.Size(382, 45);
             this.txbIDCardSearch.TabIndex = 27;
             this.txbIDCardSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbIDCardSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbIDCardSearch_KeyPress);
@@ -556,10 +538,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label9.Location = new System.Drawing.Point(7, 31);
+            this.label9.Location = new System.Drawing.Point(60, 105);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(195, 25);
+            this.label9.Size = new System.Drawing.Size(237, 31);
             this.label9.TabIndex = 28;
             this.label9.Text = "Thẻ căn cước/ CMND:";
             // 
@@ -569,10 +551,10 @@
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(593, 6);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClose.Location = new System.Drawing.Point(717, 8);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(21, 20);
+            this.btnClose.Size = new System.Drawing.Size(24, 25);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnClose.TabIndex = 31;
             this.btnClose.TabStop = false;
@@ -581,27 +563,27 @@
             // 
             // fAddCustomerInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(621, 676);
-            this.Controls.Add(this.groupBox3);
+            this.ClientSize = new System.Drawing.Size(749, 845);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.txbIDCardSearch);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "fAddCustomerInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAddCustomerInfo";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -634,7 +616,6 @@
         private Bunifu.Framework.UI.BunifuMetroTextbox txbFullName;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox3;
         private Bunifu.Framework.UI.BunifuThinButton2 btnSearch;
         private Bunifu.Framework.UI.BunifuMetroTextbox txbIDCardSearch;
         private System.Windows.Forms.Label label9;
